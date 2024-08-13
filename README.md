@@ -1,0 +1,1 @@
+Esse repositório é dedicado a favor de guardar e expor todos os projetos trabalhados pela equipe/start-up Nexus, composta por alunos do SESI IBURA, da sala do 3ºB, sendo esses alunos: Ana Carolina, Antônio Miranda, Asafe Calebe, Caio Guilherme, Esdras Felipe, José Vinícius e Matheus Oliveira.
