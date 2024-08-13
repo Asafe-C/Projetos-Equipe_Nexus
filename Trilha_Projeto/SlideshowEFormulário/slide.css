@@ -1,0 +1,147 @@
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #353a3a;
+    border-radius: 0%
+}
+
+h3{
+   position: absolute;
+   margin-left: 5cqw;
+   color: #fff;
+   
+}
+header{
+    text-align: center;
+    color: white;
+    background-color: #1a1a1a;
+    padding: 0.1%;
+    justify-content: left;
+    align-content:left;
+    align-items: center;
+}
+
+nav{
+    background-color: rgb(114, 114, 114);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+h1{
+    margin-left: -50px;
+}
+
+h2{
+    color: white;
+}
+
+.logo{
+    width: 150px;
+    justify-content: center;
+    align-content: center;
+    margin-right: 2.3%;
+    margin-bottom: -0.6%;
+}
+
+.titulo{
+    margin-left: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    height: 30cqw;
+    width: 50cqw;
+    border-radius: 5px;
+    overflow: hidden;
+    position:absolute;
+    left:50%;
+    transform: translate(-50%, 0.09%);
+}
+
+.grid{
+    display:grid;
+    grid-auto-flow: column;
+    text-align: center;
+    gap: 2cqw;
+    padding: 0.1%;
+    background-color: #2a3738;
+}
+
+.slideshow img {
+    margin-left: 18%;
+    width: 60%;
+    height: 10%;
+}
+
+.divTel{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.telefone{
+    margin: 0px;
+    padding-right: 1rem;
+    height: auto;
+    width: 90px;
+    margin-right: 1cqw;
+}
+
+.linkedin{
+    margin: 0px;
+    padding-right: 1rem;
+
+    width: 80px;
+}
+
+.email{
+    margin: 0px;
+    padding-right: 1rem;
+    height: auto;
+    width: 50px;
+    margin-left: 1cqw;
+}
+
+.copy{
+    text-align: end;
+    margin-top: 25cqw;    
+    margin-right: 2cqw;
+    color: #fff;
+
+}
+
+.textoE{
+   text-align: center;
+}
+
+.textoG{
+    text-decoration: none;
+}
+
+.grade{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.img{
+    width: 600px;
+    height: 300px;
+}

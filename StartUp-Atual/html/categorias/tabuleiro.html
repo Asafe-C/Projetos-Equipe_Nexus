@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexus | Tabuleiros</title>
+  <link rel="stylesheet" href="/css/categorias.css">
+  <link rel="stylesheet" href="/css/carrinho.css">
+  <link rel="shortcut icon" href="/images/Logo.png" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <div class="inicio">
+      <!--Logo, Barra de Pesquisa, Login, Lista de Favoritos e Carrinho-->
+      <a href="/html/index.html"><img src="/images/Logo (Sem Fundo).png" alt="Logo da Nexus" class="logo" /></a>
+
+      <div>
+        <input class="luposo" type="search" placeholder="O que você está procurando?" />
+      </div>
+      <nav class="nav1" aria-label="logincarrinho">
+        <a href="/html/login.html">
+          <div class="login">
+            <!--Login-->
+            <img src="/images/do-utilizador.png" alt="Login" class="icon" />
+            <p id="nomeuser" style="
+                  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+                    'Helvetica Neue', sans-serif;
+                ">
+              Login
+            </p>
+          </div>
+        </a>
+        <!-- Open Btn -->
+        <button id="open_cart_btn">
+          <img src="/images/carrinho-de-compras.png" alt="Carrinho" class="icon" />
+        </button>
+      </nav>
+    </div>
+    <nav class="nav2" aria-label="barra">
+      <div>
+        <!-- Menu -->
+        <ul class="nave-list">
+          <li>
+            <a href="javascript:void(0)" id="openDropdown">Categorias</a>
+          </li>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="/html/categorias/literatura.html">Literatura</a>
+            <a href="/html/categorias/miniaturas.html">Miniaturas</a>
+            <a href="/html/categorias/roupas.html">Roupas e Acessórios</a>
+            <a href="/html/categorias/jogos.html">Jogos</a>
+            <a href="/html/categorias/tabuleiro.html">Tabuleiros</a>
+            <a href="/html/categorias/colecionaveis.html">Colecionáveis</a>
+            <a href="/html/categorias/decoracao.html">Decorações</a>
+            <a href="/html/categorias/cosplay.html">Cosplay</a>
+          </div>
+          <li><a href="/html/promoçoes.html">Promoções</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="product">
+      <h3>D&D Kit Introdutório Dragões Da Ilha Da Tempestade</h3>
+      <div class="idesc">
+        <img src="/images/produtos/tabuleiro/D&DI.png" alt="D&D Kit Introdutório Dragões Da Ilha Da Tempestade">
+        <div class="descricao">
+          <p>Dungeons & Dragons Kit Introdutório: Dragões da Ilha da Tempestade é seu portal para aventuras cheias de
+            ação no jogo cooperativo de contar histórias Dungeons & Dragons, onde heróis lutam contra monstros,
+            encontram tesouros e realizam buscas épicas. Esta caixa contém as regras essenciais do jogo, além de tudo o
+            que você precisa para interpretar personagens heroicos pegos em meio a uma antiga guerra entre dragões,
+            enquanto exploram os segredos da Ilha da Tempestade.</p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('D&D-kit')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">184.45</p>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+      <h3>D&D - Essentials Kit</h3>
+      <div class="idesc">
+        <img src="/images/produtos/tabuleiro/D&DE.png" alt="Dungeons & Dragons - Essentials Kit">
+        <div class="descricao">
+          <p>Tudo o que você precisa para criar personagens e jogar novas aventuras nesta introdução ao maior RPG do
+            mundo. Projetado para 2 a 6 jogadores. "O Dungeons & Dragons Essentials Kit é a introdução perfeita ao
+            lendário jogo de RPG."--Forbes "Verdadeiramente excelente."-Paste Dê o primeiro passo no mundo de Dungeons &
+            Dragons ou obtenha uma experiência de D&D mais ampla depois de jogar o Starter Set. Jogue com grupos de
+            apenas dois jogadores (um Dungeon Master e um aventureiro) pela primeira vez na quinta edição de D&D com a
+            introdução de “sidekicks”. Lute e saqueie Phandalin na nova aventura de D&D, Dragon of Icespire Peak.
+            Experimente a emoção de ser um Dungeon Master atrás de uma tela DM de quatro painéis com regras de jogo
+            rápidas e fáceis.
+            <br><br>Componentes:
+            <br>(1) livro de regras, (1) aventura introdutória Dragon of Icespire Peak, (6)
+            fichas de personagem em branco, (11) dados, (1) tela do Dungeon Master de 33" × 8,5", (81) cartas para itens
+            mágicos, ajudantes e mais, (1) mapa de pôster frente e verso de 21" x 15" para uso na aventura.
+          </p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('Essentials')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">175.22</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="product">
+      <h3>Kit D&D Introdutório E Essencial</h3>
+      <div class="idesc">
+        <img src="/images/produtos/tabuleiro/DI&DE.png" alt="Kit Introdutório Dungeons Dragões Ilha E Essencial">
+        <div class="descricao">
+          <p>KIT INTRODUTÓRIO DRAGÕES DA ILHA DA TEMPESTADE - DUNGEONS & DRAGONS Tudo que você precisa para
+            começar a jogar o maior RPG de todos os tempos.
+
+            <br><br>O Kit Introdutório: Dragões da Ilha da Tempestade é seu portal para aventuras repletas de ação no
+            jogo de narrativa compartilhada Dungeons & Dragons, onde heróis enfrentam monstros, encontram tesouros e
+            participam de buscas épicas. Esta caixa contém as regras básicas do jogo mais tudo que você precisa para
+            jogar com personagens heroicos envolvidos em uma guerra ancestral entre dragões conforme exploram os
+            segredos da Ilha da Tempestade.
+            <br><br>
+            CONTEÚDO
+            <br>
+            - Livreto de aventuras de 48 páginas com tudo que você precisa para começar,
+            - Livro de regras de 32 páginas para jogar com personagens do 1º ao 3º níveis,
+            - 5 personagens prontos para jogar, cada um com uma ficha de personagem,
+            - 6 dados poliédricos
+            <br><br>
+            KIT ESSENCIAL DE DUNGEONS & DRAGONS PORTUGUÊS
+            <br>
+            Tudo o que você precisa para criar personagens e jogar as novas aventuras nesta introdução ao maior RPG do
+            mundo.
+            <br>
+            Dungeons & Dragons é um jogo cooperativo de narrativa que explora sua imaginação e o convida a explorar um
+            fantástico mundo de aventuras, onde heróis lutam contra monstros, encontram tesouros e superam missões. O
+            D&D Essentials Kit é um novo produto introdutório destinado a levar o D&D ao público interessado em
+            mergulhar em uma história de fantasia.
+            <br>
+            Esta caixa contém o essencial que você precisa para executar um jogo de D&D com um Dungeon Master e um a
+            cinco aventureiros. Um livro de regras recém-projetado integra os jogadores, ensinando-os a criar
+            personagens, e a aventura incluída, Dragon of Icespire Peak , apresenta uma nova variante de regras 1 contra
+            1.
+            <br><br>
+            CONTEÚDO
+            <br>
+            - 1 Livro de Regras de 72 Páginas que ensina como criar personagens dos níveis 1 a 6 e como jogar
+            - Dragão do Pico da Ponta Gélida, uma aventura introdutória.
+            - Mapa pôster frente e verso
+            - Escudo do Dungeon Master
+            - 6 Planilhas de personagem em branco
+            - 11 dados poliédricos
+            - 81 Cartas que descrevem itens mágicos, ajudantes e mais
+          </p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('Introduction')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">319.13</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="product">
+      <h3>Dungeons & Dragons Vs Rick and Morty</h3>
+      <div class="idesc">
+        <img src="/images/produtos/tabuleiro/R&M.png" alt="Dungeons & Dragons Vs Rick and Morty">
+        <div class="descricao">
+          <p>Jogue D&D através das lentes do gênio narcisista louco, Rick Sanchez, da série animada do Cartoon Network,
+            Rick e Morty – o Rick Way!
+            Esta caixa de jogo de RPG de mesa combina o mundo de Dungeons & Dragons com o gênio narcisista louco, as
+            sensibilidades poderosas de Rick Sanchez nos jogos, nostalgia, metacomentários sarcásticos e as razões pelas
+            quais as pessoas jogam D&D em primeiro lugar.
+            <br><br>
+            Seguindo a popular série de quadrinhos Rick e Morty vs. Dungeons & Dragons, esta caixa é de coautoria de Jim
+            Zub (co-roteirista da série de quadrinhos) com nova arte de Troy Little (ilustrador da série de quadrinhos).
+            <br><br>
+            Esta experiência de campanha completa inclui os seguintes componentes: (1) livro de regras de 64 páginas
+            anotado por Rick (2) aventura original de 32 páginas para os níveis 1–3 (3) tela dobrável do Dungeon Master
+            com 4 painéis apresentando nova arte (4) 5 prontos - fichas de personagem para jogar (6) 11 dados
+            <br><br>
+            Um ótimo companheiro para a série de quadrinhos e um presente perfeito para os fãs de Rick e Morty/D&D em
+            sua vida.
+          </p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('DED-RK')">Comprar</button>
+        <div class="preço">
+          <p class="desconto">R$439.90</p>
+          <p>R$</p>
+          <p id="valor">332.26</p>
+        </div>
+      </div>
+    </div>
+    <!-- Backdrop -->
+    <div class="backdrop"></div>
+    <!-- Carrinho -->
+    <div id="sidecart" class="sidecart">
+      <div class="cart_content">
+        <!-- Cart Header -->
+        <div class="cart_header">
+          <img src="/images/carrinho-de-compras2.png" alt="Carrinho de Compras" style="width: 30px">
+          <div class="header_title">
+            <h2 class="carrinho">Seu Carrinho</h2>
+            <span id="items_num">0</span>
+          </div>
+          <span id="close_btn" class="close_btn">&times;</span>
+        </div>
+        <!-- Cart Items -->
+        <div class="cart_items"></div>
+        <!-- Cart Actions -->
+        <div class="cart_actions">
+          <div class="subtotal">
+            <p>SUBTOTAL</p>
+            <p>R$<span id="subtotal_price">00.00</span></p>
+          </div>
+          <button>Ver Carrinho</button>
+          <button>Confirmar</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <!-- Pagamentos -->
+    <h4>Formas de Pagamento</h4>
+    <div class="imgF">
+      <img src="/images/footer/visa.png" alt="Visa" class="if" />
+      <img src="/images/footer/mastercard_vrt_pos_92px_2x.png" alt="Mastercard" class="if" />
+      <img src="/images/footer/Banco_Itaú_logo.svg.png" alt="Itaú" class="if" />
+      <img src="/images/footer/logo-pix-520x520.png" alt="Pix" class="if" />
+    </div>
+    <!-- Redes Sociais -->
+    <h4>Redes Sociais</h4>
+    <div class="imgF">
+      <a href=""><img src="/images/footer/face.png" alt="Twitter" class="if" /></a>
+      <a href="https://www.instagram.com/escuderia.nexus?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw== "><img
+          src="/images/footer/Instagram_icon.webp" alt="Instagram" class="if" /></a>
+    </div>
+    <!-- Atendimento -->
+    <h4>Atendimento</h4>
+    <div class="imgF">
+      <a href=""><img src="/images/footer/whatsapp.png" alt="(81) 90000-0000" class="if" /></a>
+      <a href=""><img src="/images/footer/gmail.png" alt="Nexus69@gmail.com" class="if" /></a>
+    </div>
+    <br />
+    <p style="font-size: 115%">
+      &copy; Todos os Direitos Reservados a Equipe Nexus - Sesi Ibura 2024
+    </p>
+  </footer>
+  <script src="/js/categorias.js"></script>
+  <script src="/js/descricao.js"></script>
+  <script src="/js/carrinho.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexus | Jogos</title>
+  <link rel="stylesheet" href="/css/carrinho.css">
+  <link rel="stylesheet" href="/css/categorias.css">
+  <link rel="shortcut icon" href="/images/Logo.png" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <div class="inicio">
+      <!--Logo, Barra de Pesquisa, Login, Lista de Favoritos e Carrinho-->
+      <a href="/html/index.html"><img src="/images/Logo (Sem Fundo).png" alt="Logo da Nexus" class="logo" /></a>
+
+      <div>
+        <input class="luposo" type="search" placeholder="O que você está procurando?" />
+      </div>
+      <nav class="nav1" aria-label="logincarrinho">
+        <a href="/html/login.html">
+          <div class="login">
+            <!--Login-->
+            <img src="/images/do-utilizador.png" alt="Login" class="icon" />
+            <p id="nomeuser" style="
+                      font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+                        'Helvetica Neue', sans-serif;
+                    ">
+              Login
+            </p>
+          </div>
+        </a>
+        <!-- Open Btn -->
+        <button id="open_cart_btn">
+          <img src="/images/carrinho-de-compras.png" alt="Carrinho" class="icon" />
+        </button>
+      </nav>
+    </div>
+    <nav class="nav2" aria-label="barra">
+      <div>
+        <!-- Menu -->
+        <ul class="nave-list">
+          <li>
+            <a href="javascript:void(0)" id="openDropdown">Categorias</a>
+          </li>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="/html/categorias/literatura.html">Literatura</a>
+            <a href="/html/categorias/miniaturas.html">Miniaturas</a>
+            <a href="/html/categorias/roupas.html">Roupas e Acessórios</a>
+            <a href="/html/categorias/jogos.html">Jogos</a>
+            <a href="/html/categorias/tabuleiro.html">Tabuleiros</a>
+            <a href="/html/categorias/colecionaveis.html">Colecionáveis</a>
+            <a href="/html/categorias/decoracao.html">Decorações</a>
+            <a href="/html/categorias/cosplay.html">Cosplay</a>
+          </div>
+          <li><a href="/html/promoçoes.html">Promoções</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="product">
+      <h3>Super Mario Odyssey | Mídia Física</h3>
+      <div class="idesc">
+        <img src="/images/produtos/jogos/mario-jog.png" alt="Super Mario Odyssey | Mídia Física">
+        <div class="descricao">
+          <p>“Super Mario Odyssey” é um jogo de plataforma 3D da Nintendo, onde você controla Mario em uma
+            aventura para salvar a Princesa Peach do vilão Bowser, que planeja se casar com ela. Mario é
+            auxiliado por um chapéu mágico chamado Cappy, que lhe dá novos poderes. O jogo é conhecido por
+            sua jogabilidade inovadora e mundos extensos e detalhados para explorar.</p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('mario')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">294.89</p>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+      <h3>EA FC24 | Mídia Física</h3>
+      <div class="idesc">
+        <img src="/images/produtos/jogos/ea fc24-jog.png" alt="Mídia física do jogo EA FC24">
+        <div class="descricao">
+          <p>"EA SPORTS FC™ 24" é um jogo de futebol que inicia uma nova era do “Jogo de Todo Mundo”. Ele traz
+            tecnologias como HyperMotionV, Estilos de Jogo otimizados pela Opta e uma Frostbite™ Engine
+            revolucionada, oferecendo uma experiência de futebol autêntica e realista. O jogo inclui a
+            experiência oficial da UEFA EURO 2024™ e apresenta modelos de atletas realistas e detalhes ricos
+            para uma imersão completa em cada partida.</p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('eafc24')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">347.84</p>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+      <h3>Marvel's Spider-Man 2 | Mídia Física</h3>
+      <div class="idesc">
+        <img src="/images/produtos/jogos/spider-jog.png" alt="Mídia Física do jogo Marvel's Spider-Man 2">
+        <div class="descricao">
+          <p>“Marvel’s Spider-Man 2” é um jogo eletrônico de ação-aventura que continua a história dos jogos
+            anteriores. Peter Parker e Miles Morales, os Homens-Aranha, enfrentam o teste final de força
+            enquanto lutam para salvar a cidade e aqueles que amam do monstruoso Venom e de uma nova ameaça
+            do simbionte. O jogo também explora o retorno de Harry Osborn, recém curado de uma misteriosa
+            doença, que parece estar relacionada ao simbionte Venom.</p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('spider')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">394.68</p>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+      <h3>God of War: Ragnarok | Mídia Física</h3>
+      <div class="idesc">
+        <img src="/images/produtos/jogos/gow-jog.png" alt="Mídia Física do jogo God of War: Ragnarok">
+        <div class="descricao">
+          <p>“God of War: Ragnarok” é a sequência do aclamado jogo God of War (2018). No jogo, Kratos e seu
+            filho Atreus enfrentam o Fimbulwinter e devem viajar por cada um dos Nove Reinos em busca de
+            respostas, enquanto as forças de Asgard se preparam para a batalha profética do Ragnarok, que
+            promete ser o fim do mundo. Eles explorarão paisagens míticas e enfrentarão inimigos poderosos,
+            incluindo deuses e monstros da mitologia nórdica.</p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('gow')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">339.99</p>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+      <h3>Red Dead Redemption 2 | Mídia Física</h3>
+      <div class="idesc">
+        <img src="/images/produtos/jogos/red-jog.png" alt="Mídia Física do jogo Red Dead Redemption 2">
+        <div class="descricao">
+          <p>"Red Dead Redemption 2" é um jogo de ação-aventura em mundo aberto, desenvolvido pela Rockstar
+            Games. Ele se passa no final do século XIX e segue a história de Arthur Morgan, um fora da lei e
+            membro da gangue Van der Linde. O jogo explora a vida tumultuada dos bandidos durante o declínio
+            do Velho Oeste Americano, enquanto eles lidam com ameaças internas e externas em uma era de
+            mudanças significativas. A narrativa é conhecida por sua profundidade, explorando temas como
+            lealdade, sacrifício e a busca por redenção.</p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('rdr2')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">125.00</p>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+      <h3>The Last of Us | Mídia Física</h3>
+      <div class="idesc">
+        <img src="/images/produtos/jogos/tlou-jog.png" alt="Mídia Física do jogo The Last of Us">
+        <div class="descricao">
+          <p>"The Last of Us" é um jogo de ação-aventura e sobrevivência, desenvolvido pela Naughty Dog. A
+            história se passa em um mundo pós-apocalíptico onde uma pandemia causada por um fungo
+            transformou a maioria da população em criaturas hostis. O jogo segue Joel, um contrabandista
+            endurecido, que é encarregado de escoltar a adolescente Ellie através dos Estados Unidos
+            devastados. Juntos, eles enfrentam perigos constantes, incluindo infectados e outros
+            sobreviventes hostis, enquanto desenvolvem um vínculo profundo e complexo.</p>
+        </div>
+      </div>
+      <div class="compra">F
+        <button onclick="addcarrinho('tlou')">Comprar</button>
+        <div class="preço">
+          <p class="desconto">R$239.90</p>
+          <p>R$</p>
+          <p id="valor">203.99</p>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+      <h3>Elden Ring | Mídia Física</h3>
+      <div class="idesc">
+        <img src="/images/produtos/jogos/elder-jog.png" alt="Mídia Física do jogo Elden Ring">
+        <div class="descricao">
+          <p>"Elden Ring" é um jogo de RPG de ação que se passa nas Terras Intermédias, governadas pela Rainha
+            Marika, a Eterna. A sinopse oficial revela que a Ordem Áurea foi quebrada e agora cabe ao
+            jogador se tornar um Maculado, um guerreiro escolhido pela Graça para empunhar o poder do Anel
+            Prístino. Com ele, você se torna um Lorde Prístino nas Terras Intermédias. Os semideuses filhos
+            de Marika reivindicaram os fragmentos conhecidos como Grandes Runas, e essa incrível força
+            recém-descoberta desencadeou uma guerra: a Ruptura. Agora o poder será dado aos Maculados, que
+            foram rejeitados e exilados das Terras Intermédias.</p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('eldenring')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">289.00</p>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+      <h3>The Legend of Zelda: Tears of the Kingdom | Mídia Física</h3>
+      <div class="idesc">
+        <img src="/images/produtos/jogos/zelda-jog.png"
+          alt="Mídia Física do jogo The Legend of Zelda: Tears of the Kingdom">
+        <div class="descricao">
+          <p>"The Legend of Zelda™: Tears of the Kingdom é uma continuação direta de Breath of the Wild. Após
+            a derrota de Calamity Ganon, Link e Zelda se aventuram dentro do castelo de Hyrule, onde
+            encontram um corpo mumificado que parece ser de Ganondorf. Uma energia maligna desperta,
+            causando o desaparecimento de Zelda, transformando seu castelo em ruínas flutuantes e ferindo
+            gravemente o herói Link. O jogo é uma aventura épica onde o jogador deve navegar por este reino
+            transformado e enfrentar o caos desencadeado pelo espírito maligno.</p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('zelda')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">383.22</p>
+        </div>
+      </div>
+    </div>
+    <!-- Backdrop -->
+    <div class="backdrop"></div>
+    <!-- Carrinho -->
+    <div id="sidecart" class="sidecart">
+      <div class="cart_content">
+        <!-- Cart Header -->
+        <div class="cart_header">
+          <img src="/images/carrinho-de-compras2.png" alt="Carrinho de Compras" style="width: 30px">
+          <div class="header_title">
+            <h2 class="carrinho">Seu Carrinho</h2>
+            <span id="items_num">0</span>
+          </div>
+          <span id="close_btn" class="close_btn">&times;</span>
+        </div>
+        <!-- Cart Items -->
+        <div class="cart_items"></div>
+        <!-- Cart Actions -->
+        <div class="cart_actions">
+          <div class="subtotal">
+            <p>SUBTOTAL</p>
+            <p>R$<span id="subtotal_price">00.00</span></p>
+          </div>
+          <button>Ver Carrinho</button>
+          <button>Confirmar</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <!-- Pagamentos -->
+    <h4>Formas de Pagamento</h4>
+    <div class="imgF">
+      <img src="/images/footer/visa.png" alt="Visa" class="if" />
+      <img src="/images/footer/mastercard_vrt_pos_92px_2x.png" alt="Mastercard" class="if" />
+      <img src="/images/footer/Banco_Itaú_logo.svg.png" alt="Itaú" class="if" />
+      <img src="/images/footer/logo-pix-520x520.png" alt="Pix" class="if" />
+    </div>
+    <!-- Redes Sociais -->
+    <h4>Redes Sociais</h4>
+    <div class="imgF">
+      <a href=""><img src="/images/footer/face.png" alt="Twitter" class="if" /></a>
+      <a href="https://www.instagram.com/escuderia.nexus?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw== "><img
+          src="/images/footer/Instagram_icon.webp" alt="Instagram" class="if" /></a>
+    </div>
+    <!-- Atendimento -->
+    <h4>Atendimento</h4>
+    <div class="imgF">
+      <a href=""><img src="/images/footer/whatsapp.png" alt="(81) 90000-0000" class="if" /></a>
+      <a href=""><img src="/images/footer/gmail.png" alt="Nexus69@gmail.com" class="if" /></a>
+    </div>
+    <br />
+    <p style="font-size: 115%">
+      &copy; Todos os Direitos Reservados a Equipe Nexus - Sesi Ibura 2024
+    </p>
+  </footer>
+  <script src="/js/categorias.js"></script>
+  <script src="/js/descricao.js"></script>
+  <script src="/js/carrinho.js"></script>
+</body>
+
+</html>

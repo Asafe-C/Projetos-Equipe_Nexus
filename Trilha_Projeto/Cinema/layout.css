@@ -1,0 +1,116 @@
+header{
+    padding: 10px;
+    margin: 0px;
+    background-color: rgb(145, 5, 5);
+    color: aliceblue;
+    font-size: 30px;
+    width: 100%;
+}
+
+body{
+    background-color: #191919;
+    font-family: system-ui;
+}
+
+h1{
+    color:white;
+    text-align: center;
+}
+
+.loc{
+    max-width:200px;
+    width: auto;
+    height: auto;
+    padding-top: 85px;
+}
+
+.voltar{
+    max-width:200px;
+    height: 70px;
+    margin-bottom: -125px;
+    width: 70px;
+    float: left;
+}
+
+.tp{
+    text-align: center;
+}
+
+.painelestados{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    grid-auto-flow: space-around;
+    gap: 100px;
+    padding: 0px 100px
+    
+}
+
+div{
+    background-color: #404040;
+    margin: 30px 0px 0px;
+    border-radius: 15px;
+    text-align: center;
+    width: 50cqw;
+}
+
+.estado{
+    width: 270px;
+}
+
+.hoje {
+    box-shadow: 0 0 2em red;
+}
+.amanha {
+    box-shadow: 0 0 2em blue;
+}
+a {
+    text-decoration:none;
+    color: white
+}
+
+h2{
+    padding-top: 10px;
+    color: white;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.cartaz{
+    padding: 10px;
+    border-radius: 20px;
+    width: 214px;
+    height: 317px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.painelfilmes{
+    display: grid;
+    place-items: center; 
+}
+
+h3{
+    color: white;
+}
+
+.sinopse{
+    color: white;
+    text-align: justify;
+    padding: 15px;
+    font-size: medium;
+}
+
+footer{
+    text-align: right;
+    margin-top: -30px;
+}
+
+iframe{
+    padding: 30px;
+}

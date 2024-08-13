@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #161618;
+}
+
+h1, h2{
+    color:  whitesmoke;
+}
+
+header{
+    padding: 10px;
+}
+
+div{
+    padding: 30px;
+    margin: 20px;
+    border-radius: 4px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.titulos{
+    text-align: center; 
+    color: whitesmoke;
+}
+
+.t1, .t3, .t5{
+    background-color:#2a2c31;
+}
+
+.t2, .t4{
+    background-color: #3e4147;
+}
+
+.slideshow{
+    text-align: center;
+}
+
+img{
+    margin: -0.75cqw;
+    width: 75cqw;
+    height: auto;
+}

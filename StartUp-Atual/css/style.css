@@ -1,0 +1,202 @@
+header{
+    background-color: #190C3C;
+}
+
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fcfafa;
+}
+
+.inicio{
+    padding: 10px;
+    margin: 0cqw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8cqw;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+.titles{
+    display: inline-flex;
+    gap: 15vw;
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+
+.products{
+    display: inline-flex;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon{
+    height: 45px;
+    width: 45px;
+}
+
+.luposo{
+    background: url(/images/pesquisa-de-lupa.png) no-repeat right;
+    background-size: 30px;
+    padding-left: 30px;
+    background-color: white;
+}
+
+input[type=search]{
+    border-radius: 7px;
+    text-align: center;
+    width: 50cqw;
+    height: 2.5cqw;
+    border: solid 2px rgb(219, 219, 219, 0.7);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.nav2 a, .nav1 a{ 
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.titles a{
+    color: #000000;
+    text-decoration: none;
+    width: 3vw;
+}
+
+.nav1 {
+    padding: 10px;
+    margin: 0cqw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8cqw;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 10vh;
+    background-color: #1D0D46;
+}
+
+.nave-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50vw;
+    letter-spacing: 1px;
+}
+
+footer{
+    text-align: center;
+    background-color: #1D0D46;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+}
+
+#lupa{
+    background:url(/images/pesquisa-de-lupa.png);
+    padding-left:30px;
+    width: 5000px;
+    height: 30px;
+}
+
+.conta {
+    color: blue;
+}
+
+.cep {
+    color: blue;
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 5vh auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.caption{
+    text-align: center;
+    font-weight: bold;
+    font-size: 115%;
+}
+
+/* Painel de Categorias */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    margin-top: 59vh;
+    margin-left: -20.8vw;
+    display: none;
+    position: absolute;
+    background-color: #190a3f;
+    min-width: 17vw;
+    z-index: 1;
+    text-align: center;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #07021f;
+}
+
+.show {
+    display: block;
+}
+
+.imgF{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3cqw;
+}
+
+.if{
+    height: 60px;
+    width: auto;
+    margin: 1vw;
+    display: flex;
+}

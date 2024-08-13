@@ -1,0 +1,132 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 0px 0px 50px;
+    background-color: #f9f9f9;
+    ;
+}
+
+header{
+    background-color: #febe01;
+    margin: 0px;
+    padding: 30px;
+}
+
+h1{
+    text-align: left;
+    color:rgb(255, 255, 255); /*rgb(52, 48, 77)*/
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+h2{
+    color: #464052;
+    border: #a4a4a4;
+    cursor: pointer;
+}
+
+p{
+    color: #b2b2b2;
+    text-align: center;
+    font-size: 30px;
+}
+
+span{
+    color: #b2b2b2;
+    font-size: 20px;
+}
+
+.titulo{
+    color: #404040;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preço{
+    color:#09dd4f
+}
+
+.grid{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 30px;
+    padding: 50px;
+}
+
+.produto{
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 10px auto;
+    border-radius: 40px;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 0 3px black;
+    width: 20cqw;
+    height: 20cqw;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.produto img{
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: .5s ease;
+ }
+ 
+ .produto:hover img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+ }
+
+input{
+    width: 700px;
+    height: 35px;
+    border: none;
+}
+
+footer{
+    text-align: center;
+}
+
+.prox{
+    background-color: #febe01;
+    color:#332200;
+    border-radius: 4px;
+    display: inline;
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+img{
+    height: 15cqw;
+    width: auto;
+}
+
+.icoh{
+    height: 70px;
+    width: auto;
+    float: left;
+    padding-right: 20px;
+}
+
+.lupa{
+    height: 25px;
+    margin-top: 5px;
+    margin-left: -30px;
+    width: auto;
+    vertical-align: -5px;
+    padding: 0px 0px;
+}
+
+.barrap{
+    background-color: white;
+    width: 30cqw; 
+    display: inline-flex;
+    margin: 10px auto;
+}
+
+.logo{
+    display: flexbox; 
+}

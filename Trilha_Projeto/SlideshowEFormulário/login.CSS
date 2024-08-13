@@ -1,0 +1,143 @@
+.grid{
+    display:grid;
+    grid-auto-flow: column;
+    padding-right: 20cqw;
+    background-color: #1a1a1a;
+}
+
+.grade{
+    border-style: solid;
+    color: #353a3a;
+    box-shadow: 0 0 50px 15px #1f1f1f;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(271deg, #131313, #9b9797);
+    -webkit-animation:  fundo 15s ease infinite;
+    -moz-animation:  fundo 15s ease infinite;
+    animation: fundo 15s ease infinite;
+    background-size: 300% 300%;
+    animation-name: fundo 15s ease infinite;
+}
+
+@-webkit-keyframes fundo {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes fundo {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes fundo {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+    to  { background-position: 0% 50%;}
+}
+
+form{
+    background-color: #1e1e1e;
+}
+
+h1{
+   font-size: 60px;
+   padding: 0px;
+   color: #111111;
+}
+
+header{
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+nav{
+    background-color: floralwhite;
+}
+
+div{
+    background-color: #353a3a;
+    margin: 1cqw 20cqw;
+    color:#1e1e1e;
+    text-align: center;
+    border-radius: 7px;
+    padding: 2cqw 0cqw;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(112, 112, 112);
+    text-align: center;
+    font-size: 15px;
+    border: solid rgb(112, 112, 112) 0.5px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+form{
+    padding: 20px 0px;
+}
+
+label{
+    font-size: 30px;
+}
+
+input[type=email]{
+    width: 40cqw;
+    height: 2cqw;
+    text-align: center;
+}
+
+input[type=password]{
+    width: 40cqw;
+    height: 2cqw;
+    text-align: center;
+}
+
+input[type="checkbox"]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -17.3cqw ;
+    right: 6cqw;
+
+}
+
+.L{
+    font-size: small;
+    color: rgb(179, 179, 179);
+    margin-top: 0;
+    width: 130px;
+    
+}
+
+.L2{
+    font-size: small;
+    color: rgb(179, 179, 179);
+    width: 150px;
+    cursor: pointer;
+    margin-left: 1cqw;
+}
+
+input[type=checkbox] {
+    margin-left: 1cqw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Title{
+    font-size: 3rem;
+  font-weight: bold;
+  color:white;
+  text-align: center;
+  text-shadow: 14px 14px 14px black;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}

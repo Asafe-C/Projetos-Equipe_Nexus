@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcfafa;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.ladoEsquerdo {
+    flex: 1.50;
+    background: url('/images/login/Fundo\ \(Login\).jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.ladoDireito {
+    flex: 1.25;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+}
+
+.iconeLogin img{
+    width: 80px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #2b0b7d;
+}
+
+.inputa {
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.inputa input {
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid #2b0b7d;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.inpIcon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.inpIcon img {
+    width: 20px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.options a {
+    text-decoration: none;
+    color: #2b0b7d;
+    font-weight: 300;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #220a60;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1D0D46;
+}
+
+.erro{
+    color: rgb(163, 43, 43);
+}
+
+.sucesso{
+    color: green;
+}

@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: left;
+}
+
+h1 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #2d2d2d;
+}
+
+.input-group {
+    margin: 20px 0;
+}
+
+input[type="number"] {
+    padding: 5px;
+    font-size: 16px;
+    width: 50px;
+    text-align: center;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 16px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.instructions {
+    font-style: italic;
+    color: #666;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}

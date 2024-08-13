@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexus | Roupas e Acessórios</title>
+  <link rel="stylesheet" href="/css/categorias.css">
+  <link rel="stylesheet" href="/css/carrinho.css">
+  <link rel="shortcut icon" href="/images/Logo.png" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <div class="inicio">
+      <!--Logo, Barra de Pesquisa, Login, Lista de Favoritos e Carrinho-->
+      <a href="/html/index.html"><img src="/images/Logo (Sem Fundo).png" alt="Logo da Nexus" class="logo" /></a>
+
+      <div>
+        <input class="luposo" type="search" placeholder="O que você está procurando?" />
+      </div>
+      <nav class="nav1" aria-label="logincarrinho">
+        <a href="/html/login.html">
+          <div class="login">
+            <!--Login-->
+            <img src="/images/do-utilizador.png" alt="Login" class="icon" />
+            <p id="nomeuser" style="
+                  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+                    'Helvetica Neue', sans-serif;
+                ">
+              Login
+            </p>
+          </div>
+        </a>
+        <!-- Open Btn -->
+        <button id="open_cart_btn">
+          <img src="/images/carrinho-de-compras.png" alt="Carrinho" class="icon" />
+        </button>
+      </nav>
+    </div>
+    <nav class="nav2" aria-label="barra">
+      <div>
+        <!-- Menu -->
+        <ul class="nave-list">
+          <li>
+            <a href="javascript:void(0)" id="openDropdown">Categorias</a>
+          </li>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="/html/categorias/literatura.html">Literatura</a>
+            <a href="/html/categorias/miniaturas.html">Miniaturas</a>
+            <a href="/html/categorias/roupas.html">Roupas e Acessórios</a>
+            <a href="/html/categorias/jogos.html">Jogos</a>
+            <a href="/html/categorias/tabuleiro.html">Tabuleiros</a>
+            <a href="/html/categorias/colecionaveis.html">Colecionáveis</a>
+            <a href="/html/categorias/decoracao.html">Decorações</a>
+            <a href="/html/categorias/cosplay.html">Cosplay</a>
+          </div>
+          <li><a href="/html/promoçoes.html">Promoções</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="product">
+      <h2>Camisa Estilizada | Naruto</h2>
+      <div class="idesc">
+        <img src="/images/produtos/roupas/naruto-roup.png" alt="Camisa estilizada do Naruto">
+        <div class="descricao">
+          <p>Design Inspirado em Naruto: Esta camisa apresenta um design inspirado no popular anime e mangá “Naruto”. A
+            base da camisa é de cor laranja vibrante, com padrões de chamas pretas subindo da bainha inferior em direção
+            à parte central em ambos os lados. No peito esquerdo, há um logotipo circular ou emblema, e logo abaixo
+            dele, na parte inferior da camisa, parece haver um símbolo estilizado ou personagem que se assemelha a um
+            redemoinho.</p>
+
+          <p> Estilo Único e Ousado: A combinação de cores e os elementos do design tornam essa camisa uma escolha
+            ousada para os fãs de “Naruto” ou para quem gosta de moda com padrões marcantes.</p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('Camiasa-Naruto')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">120.28</p>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+      <h2>Moletom Estilizado | Goku</h2>
+      <div class="idesc">
+        <img src="/images/produtos/roupas/goku-roup.png" alt="Moletom do Goku">
+        <div class="descricao">
+          <ul>
+            <li>Design Inspirado em “Dragon Ball Z”: Esta jaqueta de moletom apresenta um design inspirado no popular
+              anime “Dragon Ball Z”. A parte de trás exibe um grande círculo laranja com um personagem estilizado em
+              preto e branco dentro dele.</li>
+            <br>
+            <li>Detalhes do Tecido e Fechamento: O tecido é moletom flanelado 100% algodão. O fechamento é feito somente
+              por zíper.</li>
+            <br>
+            <li>Tamanhos Disponíveis: A jaqueta está disponível em vários tamanhos, desde 12 (para crianças pequenas)
+              até GG (para adultos mais robustos).</li>
+          </ul>
+
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('Moletom-Goku')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">139.99</p>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+      <h2>Conjunto Moletom Estilizado | Avengers</h2>
+      <div class="idesc">
+        <img src="/images/produtos/roupas/avengers-roup.png" alt="Conjunto moletom dos Avengers (Vingadores)">
+        <div class="descricao">
+          <p>Material: Algodão e Poliéster
+            <br>
+            <br>
+            Cores disponíveis: Preto com detalhes coloridos
+            <br>
+            <br>
+            Tamanhos: P, M, G, GG
+            <br>
+            <br>
+            Características adicionais: Capuz ajustável, bolsos laterais na calça,
+            cordão de ajuste na cintura
+          </p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('Avengers-Mo')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">149.90</p>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+      <h2>Brinco Estilizado | Demon Slayer</h2>
+      <div class="idesc">
+        <img src="/images/produtos/roupas/demon-brin-roup.png" alt="Brinco estilizado do Demon Slayer">
+        <div class="descricao">
+          <p>Adicione um toque de elegância e ousadia ao seu visual com o Brinco Estilizado inspirado em Demon Slayer.
+            Este acessório exclusivo é perfeito para os fãs do famoso anime que desejam expressar sua paixão de maneira
+            sofisticada. Os brincos apresentam um design único, inspirado nas marcas e símbolos icônicos dos
+            personagens, especialmente os brincos de Hanafuda usados por Tanjiro Kamado.</p>
+          <br>
+          <p>Material: Liga metálica hipoalergênica
+            <br>
+            Cores disponíveis: Preto, branco e detalhes vermelhos
+            <br>
+            Tamanho: Aproximadamente 3 cm de comprimento
+            <br>
+            Características adicionais: Fecho seguro, design leve e confortável, ideal para uso prolongado
+          </p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('Brinco')">Comprar</button>
+        <div class="preço">
+          <p class="desconto">R$15.90</p>
+          <p>R$</p>
+          <p id="valor">12.74</p>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+      <h2>Moletom Estilizado | Harry Potter</h2>
+      <div class="idesc">
+        <img src="/images/produtos/roupas/harry-roup.png" alt="Moletom estilizado do Harry Potter">
+        <div class="descricao">
+          <p>Envolva-se na magia do mundo bruxo com o Moletom Estilizado inspirado em Harry Potter. Este moletom é a
+            escolha perfeita para fãs que desejam levar a magia de Hogwarts para o seu dia a dia. Com um design
+            sofisticado e referências sutis à série, este moletom oferece conforto e estilo em uma peça única.</p>
+          <br>
+          <p>Material: Algodão premium com forro felpado
+            <br>
+            Cores disponíveis: Preto, cinza e azul marinho
+            <br>
+            Tamanhos: P, M, G, GG
+            <br>
+            Características adicionais: Capuz ajustável com cordão, bolso canguru, punhos e barra canelados, estampa de
+            alta qualidade que não desbota
+          </p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('Mo-Harry')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">69.43</p>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+      <h2>Camisa Estilizada | Demon Slayer</h2>
+      <div class="idesc">
+        <img src="/images/produtos/roupas/demon-roup.png" alt="Camisa estilizada do Demon Slayer">
+        <div class="descricao">
+          <p>Aventure-se no mundo de Demon Slayer com a nossa Camisa Estilizada, perfeita para fãs que desejam expressar
+            seu amor pela série com estilo e sofisticação. Esta camisa combina elementos icônicos do anime com um design
+            moderno e elegante, tornando-se uma peça indispensável no guarda-roupa de qualquer entusiasta.</p>
+          <br>
+          <p>Material: Poliéster premium com toque macio
+            <br>
+            Cores disponíveis: Preto, branco e cinza
+            <br>
+            Tamanhos: P, M, G, GG
+            <br>
+            Características adicionais: Gola redonda, mangas curtas, estampa de alta definição resistente a lavagens
+          </p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('Camisa-Demon')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">69.99</p>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+      <h2>Camisa Estilizada | Batman VS Superman</h2>
+      <div class="idesc">
+        <img src="/images/produtos/roupas/dc-roup.png"
+          alt="Camisa estilizada do Batman VS Superman (The Dark Knight VS The Man of Steel)">
+        <div class="descricao">
+          <p>A arte da camisa destaca os dois heróis em uma pose épica, prontos para o combate, com o emblemático
+            símbolo de cada um em destaque. Detalhes intricados e cores vibrantes trazem à vida a intensidade do
+            confronto, fazendo você se sentir parte deste universo lendário.</p>
+          <br>
+          <p>Material: Algodão premium, proporcionando suavidade e respirabilidade
+            <br>
+            Cores disponíveis: Preto, cinza e azul marinho
+            <br>
+            Tamanhos: P, M, G, GG
+            <br>
+            Características adicionais: Gola redonda reforçada, mangas curtas, estampa de alta definição resistente a
+            lavagens
+          </p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('Bat-Sup')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">54.90</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="product">
+      <h2>Colar/Anel | Senhor dos Anéis</h2>
+      <div class="idesc">
+        <img src="/images/produtos/roupas/anel-roup.png" alt="Colar/Anel do Senhor dos Anéis">
+        <div class="descricao">
+          <p>Adentre o mundo encantado da Terra Média com o nosso deslumbrante Colar/Anel | Senhor dos Anéis. Esta joia
+            exclusiva é inspirada no lendário Um Anel, símbolo central da aclamada trilogia de J.R.R. Tolkien, "O Senhor
+            dos Anéis". Ideal para fãs dedicados e colecionadores, este item combina elegância e misticismo, tornando-se
+            uma peça indispensável para qualquer entusiasta da saga.</p>
+          <br>
+          <p>Material do Colar: Corrente em aço inoxidável de alta qualidade, resistente à oxidação e ao desgaste
+            <br>
+            Material do Anel: Liga de zinco banhada a ouro, garantindo durabilidade e um brilho incomparável
+            <br>
+            Tamanhos disponíveis: Corrente de 60 cm; Anel em tamanhos ajustáveis
+          </p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('Anel')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">27.49</p>
+        </div>
+      </div>
+    </div>
+    <!-- Backdrop -->
+    <div class="backdrop"></div>
+    <!-- Carrinho -->
+    <div id="sidecart" class="sidecart">
+      <div class="cart_content">
+        <!-- Cart Header -->
+        <div class="cart_header">
+          <img src="/images/carrinho-de-compras2.png" alt="Carrinho de Compras" style="width: 30px">
+          <div class="header_title">
+            <h2 class="carrinho">Seu Carrinho</h2>
+            <span id="items_num">0</span>
+          </div>
+          <span id="close_btn" class="close_btn">&times;</span>
+        </div>
+        <!-- Cart Items -->
+        <div class="cart_items"></div>
+        <!-- Cart Actions -->
+        <div class="cart_actions">
+          <div class="subtotal">
+            <p>SUBTOTAL</p>
+            <p>R$<span id="subtotal_price">00.00</span></p>
+          </div>
+          <button>Ver Carrinho</button>
+          <button>Confirmar</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <!-- Pagamentos -->
+    <h4>Formas de Pagamento</h4>
+    <div class="imgF">
+      <img src="/images/footer/visa.png" alt="Visa" class="if" />
+      <img src="/images/footer/mastercard_vrt_pos_92px_2x.png" alt="Mastercard" class="if" />
+      <img src="/images/footer/Banco_Itaú_logo.svg.png" alt="Itaú" class="if" />
+      <img src="/images/footer/logo-pix-520x520.png" alt="Pix" class="if" />
+    </div>
+    <!-- Redes Sociais -->
+    <h4>Redes Sociais</h4>
+    <div class="imgF">
+      <a href=""><img src="/images/footer/face.png" alt="Twitter" class="if" /></a>
+      <a href="https://www.instagram.com/escuderia.nexus?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw== "><img
+          src="/images/footer/Instagram_icon.webp" alt="Instagram" class="if" /></a>
+    </div>
+    <!-- Atendimento -->
+    <h4>Atendimento</h4>
+    <div class="imgF">
+      <a href=""><img src="/images/footer/whatsapp.png" alt="(81) 90000-0000" class="if" /></a>
+      <a href=""><img src="/images/footer/gmail.png" alt="Nexus69@gmail.com" class="if" /></a>
+    </div>
+    <br />
+    <p style="font-size: 115%">
+      &copy; Todos os Direitos Reservados a Equipe Nexus - Sesi Ibura 2024
+    </p>
+  </footer>
+  <script src="/js/categorias.js"></script>
+  <script src="/js/carrinho.js"></script>
+</body>
+
+</html>

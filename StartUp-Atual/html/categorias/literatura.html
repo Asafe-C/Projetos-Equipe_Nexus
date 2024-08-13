@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexus | Literatura</title>
+  <link rel="stylesheet" href="/css/carrinho.css">
+  <link rel="stylesheet" href="/css/categorias.css">
+  <link rel="shortcut icon" href="/images/Logo.png" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <div class="inicio">
+      <!--Logo, Barra de Pesquisa, Login, Lista de Favoritos e Carrinho-->
+      <a href="/html/index.html"><img src="/images/Logo (Sem Fundo).png" alt="Logo da Nexus" class="logo" /></a>
+
+      <div>
+        <input class="luposo" type="search" placeholder="O que você está procurando?" />
+      </div>
+      <nav class="nav1" aria-label="logincarrinho">
+        <a href="/html/login.html">
+          <div class="login">
+            <!--Login-->
+            <img src="/images/do-utilizador.png" alt="Login" class="icon" />
+            <p id="nomeuser" style="
+                  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+                    'Helvetica Neue', sans-serif;
+                ">
+              Login
+            </p>
+          </div>
+        </a>
+        <!-- Open Btn -->
+        <button id="open_cart_btn">
+          <img src="/images/carrinho-de-compras.png" alt="Carrinho" class="icon" />
+        </button>
+      </nav>
+    </div>
+    <nav class="nav2" aria-label="barra">
+      <div>
+        <!-- Menu -->
+        <ul class="nave-list">
+          <li>
+            <a href="javascript:void(0)" id="openDropdown">Categorias</a>
+          </li>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="/html/categorias/literatura.html">Literatura</a>
+            <a href="/html/categorias/miniaturas.html">Miniaturas</a>
+            <a href="/html/categorias/roupas.html">Roupas e Acessórios</a>
+            <a href="/html/categorias/jogos.html">Jogos</a>
+            <a href="/html/categorias/tabuleiro.html">Tabuleiros</a>
+            <a href="/html/categorias/colecionaveis.html">Colecionáveis</a>
+            <a href="/html/categorias/decoracao.html">Decorações</a>
+            <a href="/html/categorias/cosplay.html">Cosplay</a>
+          </div>
+          <li><a href="/html/promoçoes.html">Promoções</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="product">
+      <h3>Box Marvel Guerra Civil: Guerras Secretas</h3>
+      <div class="idesc">
+        <img src="/images/produtos/literatura/boxlivros-guerra-secretas.png"
+          alt="Box de HQs da saga Guerra Civil: Guerras Secretas">
+        <div class="descricao">
+          <p>Na "Guerra Civil", Homem de Ferro e Capitão América, membros essenciais dos Vingadores, enfrentam
+            um dilema quando uma batalha em Stamford causa centenas de mortes. O governo dos EUA exige que
+            os super-heróis revelem suas identidades e registrem seus poderes. Tony Stark, o Homem de Ferro,
+            apoia a lei, vendo-a como necessária, enquanto o Capitão América considera isso uma agressão à
+            liberdade cívica. Em "Guerras Secretas", heróis como Vingadores, X-Men, Quarteto Fantástico e
+            Homem-Aranha enfrentam vilões como Magneto, Doutor Destino, Ultron e Galactus em um desafio
+            interestelar organizado pelo onipotente Beyonder. No Mundo de Batalha, eles lutam pelo maior
+            prêmio possível. Esta aventura épica e nostálgica é um marco na história dos super-heróis e na
+            consolidação da cultura geek.</p>
+        </div>
+      </div>
+        <div class="compra">
+          <button onclick="addcarrinho('guerracivil')">Comprar</button>
+        </div>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">51.12</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="product">
+      <h3>Box Harry Potter</h3>
+      <div class="idesc">
+        <img src="/images/produtos/literatura/box-harry-lit.png" alt="Box de Livros da saga Harry Potter">
+        <div class="descricao">
+          <p>A saga de livros de Harry Potter, escrita por J.K. Rowling, segue as aventuras de um jovem bruxo,
+            Harry Potter, e seus amigos Hermione Granger e Ron Weasley, todos estudantes na Escola de Magia
+            e Bruxaria de Hogwarts. A história principal gira em torno da luta de Harry contra o bruxo das
+            trevas Lord Voldemort, que busca se tornar imortal, conquistar o mundo dos bruxos, subjugando ou
+            eliminando todos os não-bruxos e destruir aqueles que estão em seu caminho, especialmente Harry
+            Potter.</p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('harrypotter')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">326.90</p>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+      <h3>Box Percy Jackson e os Olimpianos</h3>
+      <div class="idesc">
+        <img src="/images/produtos/literatura/box-percy-lit.png"
+          alt="Box de Livros da saga Percy Jackson e os Olimpianos">
+        <div class="descricao">
+          <p>A saga de livros “Percy Jackson & os Olimpianos” é uma série de aventuras que segue Percy Jackson,
+            um adolescente que descobre ser um semideus, filho de Poseidon. Ele e seus amigos embarcam em
+            várias missões para salvar o mundo dos planos dos titãs e outros seres mitológicos. A série é
+            conhecida por sua mistura de mitologia grega com a vida moderna.</p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('percyjack')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">280.00</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="product">
+      <h3>Box Jogos Vorazes</h3>
+      <div class="idesc">
+        <img src="/images/produtos/literatura/box-jogos-lit.png" alt="Box de Livros da saga Jogos Vorazes">
+        <div class="descricao">
+          <p>A saga “Jogos Vorazes” é uma trilogia distópica que se passa em Panem, uma nação dividida em 12
+            distritos e a Capital. A história segue Katniss Everdeen, uma jovem do Distrito 12 que se
+            voluntaria para participar dos Jogos Vorazes no lugar de sua irmã mais nova. Os jogos são um
+            evento anual televisado onde um menino e uma menina de cada distrito lutam até a morte. Katniss
+            desafia o sistema e se torna um símbolo de rebelião contra a opressão da Capital. A trilogia
+            explora temas de sobrevivência, autoritarismo, e resistência.</p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('jogosvorazes')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">224.92</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="product">
+      <h3>Box Senhor dos Anéis</h3>
+      <div class="idesc">
+        <img src="/images/produtos/literatura/box-senhor-lit.png" alt="Box de Livros da saga Senhor dos Anéis">
+        <div class="descricao">
+          <p>A saga “O Senhor dos Anéis” é uma trilogia épica de fantasia escrita por J.R.R. Tolkien que
+            segue a jornada do hobbit Frodo Bolseiro para destruir o Anel do Poder, que foi forjado pelo
+            Senhor do Escuro Sauron. Acompanhado por um grupo de heróis, incluindo humanos, um elfo, um anão
+            e outros hobbits, Frodo enfrenta várias adversidades em sua missão para levar o anel até a
+            Montanha da Perdição em Mordor, onde ele deve ser destruído.</p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('senhordosaneis')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">293.12</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="product">
+      <h3>Box Game of Thrones</h3>
+      <div class="idesc">
+        <img src="/images/produtos/literatura/box-game-lit.png" alt="Box de livros da saga Game of Thrones">
+        <div class="descricao">
+          <p>A saga “As Crônicas de Gelo e Fogo”, conhecida popularmente pelo título do primeiro livro e da
+            série de TV, “Game of Thrones”, é uma série de fantasia épica escrita por George R.R. Martin.
+            A história se passa nos continentes fictícios de Westeros e Essos e gira em torno das lutas
+            pelo poder entre várias famílias nobres para conquistar o Trono de Ferro e governar os Sete
+            Reinos de Westeros. Paralelamente, uma ameaça sobrenatural cresce no norte, além da Muralha.
+            Os livros são conhecidos por sua complexidade política, vasto número de personagens, e a
+            disposição do autor em matar personagens principais inesperadamente. A série ainda não está
+            concluída.</p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('GameOfThrones')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">169.00</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="product">
+      <h3>O Batman que Ri</h3>
+      <div class="idesc">
+        <img src="/images/produtos/literatura/o-batman-lit.png" alt="HQ do Batman que Ri">
+        <div class="descricao">
+          <p>“O Batman que Ri” apresenta uma versão maligna e “Jokerizada” do Batman, originária do
+            Multiverso Sombrio. Ele é um mestre criminoso que vem a Gotham para transformar a cidade em um
+            incubatório do mal, combinando as características heroicas do Batman com a natureza assassina do
+            Coringa.</p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('batmanrisonho')">Comprar</button>
+        <div class="preço">
+          <p class="desconto">R$99.90</p>
+          <p>R$</p>
+          <p id="valor">69.90</p>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+      <h3>Box As Crônicas de Nárnia</h3>
+      <div class="idesc">
+        <img src="/images/produtos/literatura/box-narnia-lit.png" alt="Box de Livros da saga As Crônicas de Nárnia">
+        <div class="descricao">
+          <p>As “Crônicas de Nárnia” é uma série de sete livros de fantasia escritos por C.S. Lewis. A
+            história gira em torno das aventuras de crianças humanas que descobrem Nárnia, um mundo mágico
+            sob o domínio de Aslan, um leão sábio e poderoso, e seus conflitos contra as forças do mal.
+            Nárnia é um lugar onde a magia é comum, animais falam e batalhas épicas são travadas entre o bem
+            e o mal.</p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('narnia')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">361.00</p>
+        </div>
+      </div>
+    </div>
+    <!-- Backdrop -->
+    <div class="backdrop"></div>
+    <!-- Carrinho -->
+    <div id="sidecart" class="sidecart">
+      <div class="cart_content">
+        <!-- Cart Header -->
+        <div class="cart_header">
+          <img src="/images/carrinho-de-compras2.png" alt="Carrinho de Compras" style="width: 30px">
+          <div class="header_title">
+            <h2 class="carrinho">Seu Carrinho</h2>
+            <span id="items_num">0</span>
+          </div>
+          <span id="close_btn" class="close_btn">&times;</span>
+        </div>
+        <!-- Cart Items -->
+        <div class="cart_items"></div>
+        <!-- Cart Actions -->
+        <div class="cart_actions">
+          <div class="subtotal">
+            <p>SUBTOTAL</p>
+            <p>R$<span id="subtotal_price">00.00</span></p>
+          </div>
+          <button>Ver Carrinho</button>
+          <button>Confirmar</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <!-- Pagamentos -->
+    <h4>Formas de Pagamento</h4>
+    <div class="imgF">
+      <img src="/images/footer/visa.png" alt="Visa" class="if" />
+      <img src="/images/footer/mastercard_vrt_pos_92px_2x.png" alt="Mastercard" class="if" />
+      <img src="/images/footer/Banco_Itaú_logo.svg.png" alt="Itaú" class="if" />
+      <img src="/images/footer/logo-pix-520x520.png" alt="Pix" class="if" />
+    </div>
+    <!-- Redes Sociais -->
+    <h4>Redes Sociais</h4>
+    <div class="imgF">
+      <a href=""><img src="/images/footer/face.png" alt="Twitter" class="if" /></a>
+      <a href="https://www.instagram.com/escuderia.nexus?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw== "><img
+          src="/images/footer/Instagram_icon.webp" alt="Instagram" class="if" /></a>
+    </div>
+    <!-- Atendimento -->
+    <h4>Atendimento</h4>
+    <div class="imgF">
+      <a href=""><img src="/images/footer/whatsapp.png" alt="(81) 90000-0000" class="if" /></a>
+      <a href=""><img src="/images/footer/gmail.png" alt="Nexus69@gmail.com" class="if" /></a>
+    </div>
+    <br />
+    <p style="font-size: 115%">
+      &copy; Todos os Direitos Reservados a Equipe Nexus - Sesi Ibura 2024
+    </p>
+  </footer>
+  <script src="/js/categorias.js"></script>
+  <script src="/js/descricao.js"></script>
+  <script src="/js/carrinho.js"></script>
+</body>
+
+</html>

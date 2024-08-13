@@ -1,0 +1,251 @@
+header{
+    background-color: #190C3C;
+    margin-bottom: 10px;
+}
+
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fcfafa;
+}
+
+.inicio{
+    padding: 10px;
+    margin: 0cqw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8cqw;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.luposo{
+    background: url(/images/pesquisa-de-lupa.png) no-repeat right;
+    background-size: 30px;
+    padding-left: 30px;
+    background-color: white;
+}
+
+.icon{
+    height: 45px;
+    width: 45px;
+}
+
+input[type=search]{
+    border-radius: 7px;
+    text-align: center;
+    width: 50cqw;
+    height: 2.5cqw;
+    border: solid 2px rgb(219, 219, 219, 0.7);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+a{ 
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.nav1 {
+    padding: 10px;
+    margin: 0cqw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8cqw;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 10vh;
+    background-color: #1D0D46;
+}
+
+.nave-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50vw;
+    letter-spacing: 1px;
+}
+
+footer{
+    text-align: center;
+    background-color: #1D0D46;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.imgF{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3cqw;
+}
+
+.if{
+    height: 60px;
+    width: auto;
+    margin: 1vw;
+    display: flex;
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* ------------------- Painel de Categorias ------------------- */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    margin-top: 59vh;
+    margin-left: -20.8vw;
+    display: none;
+    position: absolute;
+    background-color: #190a3f;
+    min-width: 17vw;
+    z-index: 1;
+    text-align: center;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #07021f;
+}
+
+.show {
+    display: block;
+}
+
+/* ------------------------------------------------------------ */
+
+.product {
+    margin: 5px;
+    width: 45vw;
+    height: 55vh;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+
+.product h2, .product h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3vh 0 2vh;
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 3vh;
+    color: #30176e;
+}
+
+.product p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.product img{
+    width: auto;
+    height: 200px;
+}
+
+.preço{
+    margin: 0 0 0 17vw;
+    transform: translateY(2vh);
+    display: inline-flex;
+    font-size: 2.5vh;
+    color: #30176e;
+}
+
+.desconto{
+    margin-right: 1vw;
+    text-decoration: line-through;
+    color: #5e5e5e;
+}
+
+.compra{
+    float:left;
+    margin-left: 1.5vw;
+}
+
+.descricao{
+    font-size: 12px;
+    background-color: #e4e4e471;
+    border-radius: 7.5px;
+    height: 32vh;
+    width: 27vw;
+    padding-bottom: 7.5px;
+    overflow: auto;
+}
+
+.descricao p{
+    text-align: justify;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.product button{
+    background-color: #30176e;
+    color: #fff;
+    border: 1px solid #1D0D46;
+    border-radius: 7.5px;
+    height: 5.5vh;
+    width: 8vw;
+    cursor: pointer;
+    transform: translateY(1.7vh);
+    margin: 0 0 0 4cqw;
+}
+
+.idesc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+}
+
+li{
+    font-weight: bolder;
+}

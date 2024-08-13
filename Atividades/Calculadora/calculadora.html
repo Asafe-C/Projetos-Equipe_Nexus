@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculadora.css">
+    <title>Calculadora cientifica</title>
+    <link rel="shortcut icon" href="calculadora.png" type="image/x-icon">
+    <script src="calc.js"></script>
+</head>
+<body>
+    <div class="corpo">
+        <br>
+        <div class="tela"><h3 style="margin: 5px;" id="tela">0</h3></div>
+        <br>
+        <button onclick="colocarNumero(1)">1</button>
+        <button onclick="colocarNumero(2)">2</button>
+        <button onclick="colocarNumero(3)">3</button>
+        <button onclick="ac()">AC</button>
+        <button onclick="ope('soma')">+</button>
+        <br>
+        <button onclick="colocarNumero(4)">4</button>
+        <button onclick="colocarNumero(5)">5</button>
+        <button onclick="colocarNumero(6)">6</button>
+        <button onclick="ope('subtração')">-</button>
+        <button onclick="ope('multiplicação')">x</button>
+        <br>
+        <button onclick="colocarNumero(7)">7</button>
+        <button onclick="colocarNumero(8)">8</button>
+        <button onclick="colocarNumero(9)">9</button>
+        <button onclick="ope('divisão')">÷</button>
+        <button onclick="ope('potencia')">^</button>
+        <br>
+        <button onclick="colocarNumero(0)">0</button>
+        <button onclick="ope('raiz')">√</button>
+        <button onclick="ope('log')">log</button>
+        <button onclick="virg()">,</button>
+        <button onclick="valor()">=</button>
+    </div>
+        
+</body>
+</html>

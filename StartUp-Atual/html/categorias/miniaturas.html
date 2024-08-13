@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexus | Miniaturas</title>
+  <link rel="stylesheet" href="/css/categorias.css">
+  <link rel="stylesheet" href="/css/carrinho.css">
+  <link rel="shortcut icon" href="/images/Logo.png" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <div class="inicio">
+      <!--Logo, Barra de Pesquisa, Login, Lista de Favoritos e Carrinho-->
+      <a href="/html/index.html"><img src="/images/Logo (Sem Fundo).png" alt="Logo da Nexus" class="logo" /></a>
+
+      <div>
+        <input class="luposo" type="search" placeholder="O que você está procurando?" />
+      </div>
+      <nav class="nav1" aria-label="logincarrinho">
+        <a href="/html/login.html">
+          <div class="login">
+            <!--Login-->
+            <img src="/images/do-utilizador.png" alt="Login" class="icon" />
+            <p id="nomeuser" style="
+                  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+                    'Helvetica Neue', sans-serif;
+                ">
+              Login
+            </p>
+          </div>
+        </a>
+        <!-- Open Btn -->
+        <button id="open_cart_btn">
+          <img src="/images/carrinho-de-compras.png" alt="Carrinho" class="icon" />
+        </button>
+      </nav>
+    </div>
+    <nav class="nav2" aria-label="barra">
+      <div>
+        <!-- Menu -->
+        <ul class="nave-list">
+          <li>
+            <a href="javascript:void(0)" id="openDropdown">Categorias</a>
+          </li>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="/html/categorias/literatura.html">Literatura</a>
+            <a href="/html/categorias/miniaturas.html">Miniaturas</a>
+            <a href="/html/categorias/roupas.html">Roupas e Acessórios</a>
+            <a href="/html/categorias/jogos.html">Jogos</a>
+            <a href="/html/categorias/tabuleiro.html">Tabuleiros</a>
+            <a href="/html/categorias/colecionaveis.html">Colecionáveis</a>
+            <a href="/html/categorias/decoracao.html">Decorações</a>
+            <a href="/html/categorias/cosplay.html">Cosplay</a>
+          </div>
+          <li><a href="/html/promoçoes.html">Promoções</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="product">
+      <h3>POP! SPIDER-MAN - LEAPING SPIDER-MAN #1157 - FUNKO</h3>
+      <div class="idesc">
+        <img src="/images/produtos/miniaturas/spiderpop.png" alt="Funko Pop Spiderman">
+        <div class="descricao">
+          <p> Incrível boneco Funko Pop! captura o Homem-Aranha em uma pose dinâmica de salto. Com sua roupa icônica e
+            olhos expressivos, este colecionável é perfeito para fãs do super-herói e entusiastas da cultura pop.
+            <br><br>
+            Características: <br>
+            Série: Homem-Aranha: Sem Volta para Casa<br>
+            Material: Vinil resistente<br>
+            Tamanho Aproximado: Cerca de 10 cm de altura<br>
+            Embalagem: Caixa com janela para exibição <br>
+            <br>
+            Se você é um colecionador ou simplesmente ama o Homem-Aranha, este Funko Pop! é uma adição imperdível à sua
+            coleção.
+          </p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho()">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">139.90</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="product">
+      <h3>Funko Pop! Animation: One Piece - Luffy Gear Five #1607</h3>
+      <div class="idesc">
+        <img src="/images/produtos/miniaturas/LuffyGear5.png" alt="Funko Pop Luffy Gear">
+        <div class="descricao">
+          <p>Incrível boneco Funko Pop! apresenta Luffy em sua forma épica conhecida como “Gear Five”. Com detalhes
+            impressionantes e uma pose dinâmica, este colecionável é um tesouro para os fãs de “One Piece” e
+            colecionadores.
+            <br><br>Características:
+            <br>Série: One Piece
+            <br>Material: Vinil resistente
+            <br>Tamanho Aproximado: Cerca de 10 cm de altura
+            <br>Embalagem: Caixa com janela para exibição
+          </p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho()">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">202.00</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="product">
+      <h3>Funko! POP - Marvel - Deadpool - #546</h3>
+      <div class="idesc">
+        <img src="/images/produtos/miniaturas/ddp.png" alt="Funko Pop Deadpool">
+        <div class="descricao">
+          <p>Incrível boneco Funko Pop! apresenta o Deadpool em sua forma icônica. Com 9,5 cm de altura e feito de vinil
+            resistente, ele é perfeito para colecionadores e fãs do universo Marvel.
+            <br><br>Características:
+            <br>Série: Marvel Edição Especial 80 Anos
+            <br>Material: Vinil
+            <br>Embalagem: Caixa com janela para exibição
+          </p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho()">Comprar</button>
+        <div class="preço">
+          <p class="desconto">R$156.74</p>
+          <p>R$</p>
+          <p id="valor">142.49</p>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+      <h3>Miniatura de Metal Star Wars Millennium Falcon</h3>
+      <div class="idesc">
+        <img src="/images/produtos/miniaturas/MilleniumFalcon.png" alt="Miniatura de Metal Star Wars Millennium Falcon">
+        <div class="descricao">
+          <p>Miniatura de montar é uma réplica perfeita da icônica Millennium Falcon da série de filmes Star Wars. Aqui
+            estão os detalhes:
+            <br><br>Material: Feita em aço cortado e gravado a laser.
+            <br>Montagem: Vem em duas chapas finíssimas de aço, onde você destaca cada peça e segue o manual de
+            instruções para montá-la.
+            <br>Sem Cola ou Adesivo: Você não precisa de cola ou adesivo para montá-la.
+          </p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho()">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">253.00</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="product">
+      <h3>Miniatura Metal Earth - Star Wars U-Wing Fighter</h3>
+      <div class="idesc">
+        <img src="/images/produtos/miniaturas/U-Wing Fighter.png" alt="Miniatura De Metal Star Wars U-Wing Fighter">
+        <div class="descricao">
+          <p>Miniatura de montar é uma réplica perfeita da icônica Millennium Falcon da série de filmes Star Wars.
+            <br><br>Material: Aço cortado e gravado a laser.
+            <br>Montagem: Vem em duas chapas finíssimas de aço, onde você destaca cada peça e segue o manual de
+            instruções para montá-la.
+            <br><br>Perfeito para amantes de miniaturas, colecionáveis e fãs da franquia Star Wars.
+          </p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho()">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">227.98</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="product">
+      <h3>Action Figure Naruto Uzumaki Modo Sábio</h3>
+      <div class="idesc">
+        <img src="/images/produtos/miniaturas/Naruto.png" alt="Action Figure Naruto Uzumaki Modo Sábio">
+        <div class="descricao">
+          <p>Action figure do Naruto Uzumaki em seu modo sábio. Com detalhes impressionantes, ele está vestido com seu
+            icônico manto vermelho e traje preto, pronto para a batalha. A figura fica sobre uma base de rocha,
+            segurando um pergaminho, e cercado pelos Dois Grandes Sapos Eremitas.
+            <br><br>Detalhes:
+            <br>Altura: Aproximadamente 5,7 polegadas (cerca de 14,5 cm).
+            <br>Material: ABS, PVC e tecido.
+            <br>Inclui várias mãos intercambiáveis e expressões faciais.
+          </p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho()">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">162.83</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="product">
+      <h3>Action Figure Batman Injustice - DC McFarlane</h3>
+      <div class="idesc">
+        <img src="/images/produtos/miniaturas/batmão.png" alt="Boneco Batman Injustice Colecionavel - DC McFarlane">
+        <div class="descricao">
+          <p>A Action Figure Batman Injustice é produzido pela DC McFarlane e oferece detalhes incríveis para os fãs do
+            Homem-Morcego. Aqui estão os principais pontos sobre esse item:
+            <br>
+            <br>Tamanho: Com 7 polegadas (aproximadamente 18 cm), a figura é perfeita para exibição ou brincadeiras.
+            <br>Detalhes Articulados: O boneco possui até 22 partes móveis, permitindo uma ampla variedade de poses e
+            cenas de ação.
+            <br>Design Baseado na Série Injustice
+          </p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho()">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">198.69</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="product">
+      <h3>Action Figure Jujutsu Kaisen - SATORU GOJO</h3>
+      <div class="idesc">
+        <img src="/images/produtos/miniaturas/gojo.png" alt="Figure Jujutsu Kaisen - SATORU GOJO">
+        <div class="descricao">
+          <p>Essa Action Figure é baseada no Satoro Gojo do anime Jujutsu Kaisen. Algumas características desse item
+            são:
+            <br><br>Tamanho: Com 17 cm de altura, essa peça estática é feita de plástico de alta qualidade.
+            <br>Detalhes Incríveis: O nível de detalhe captura a essência do personagem, incluindo suas características
+            marcantes, como o cabelo branco e os olhos vendados.
+            <br>Pose Característica: Satoru Gojo é representado com uma das mãos perto do rosto, como se estivesse
+            ajustando óculos ou uma máscara. Essa pose é icônica para o personagem.
+            <br>Acessórios: Embora a figura seja estática, ela pode ser exibida em sua base branca, adicionando um toque
+            especial à sua coleção.
+          </p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho()">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">312.00</p>
+        </div>
+      </div>
+    </div>
+    <!-- Backdrop -->
+    <div class="backdrop"></div>
+    <!-- Carrinho -->
+    <div id="sidecart" class="sidecart">
+      <div class="cart_content">
+        <!-- Cart Header -->
+        <div class="cart_header">
+          <img src="/images/carrinho-de-compras2.png" alt="Carrinho de Compras" style="width: 30px">
+          <div class="header_title">
+            <h2 class="carrinho">Seu Carrinho</h2>
+            <span id="items_num">0</span>
+          </div>
+          <span id="close_btn" class="close_btn">&times;</span>
+        </div>
+        <!-- Cart Items -->
+        <div class="cart_items"></div>
+        <!-- Cart Actions -->
+        <div class="cart_actions">
+          <div class="subtotal">
+            <p>SUBTOTAL</p>
+            <p>R$<span id="subtotal_price">00.00</span></p>
+          </div>
+          <button>Ver Carrinho</button>
+          <button>Confirmar</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <!-- Pagamentos -->
+    <h4>Formas de Pagamento</h4>
+    <div class="imgF">
+      <img src="/images/footer/visa.png" alt="Visa" class="if" />
+      <img src="/images/footer/mastercard_vrt_pos_92px_2x.png" alt="Mastercard" class="if" />
+      <img src="/images/footer/Banco_Itaú_logo.svg.png" alt="Itaú" class="if" />
+      <img src="/images/footer/logo-pix-520x520.png" alt="Pix" class="if" />
+    </div>
+    <!-- Redes Sociais -->
+    <h4>Redes Sociais</h4>
+    <div class="imgF">
+      <a href=""><img src="/images/footer/face.png" alt="Twitter" class="if" /></a>
+      <a href="https://www.instagram.com/escuderia.nexus?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw== "><img
+          src="/images/footer/Instagram_icon.webp" alt="Instagram" class="if" /></a>
+    </div>
+    <!-- Atendimento -->
+    <h4>Atendimento</h4>
+    <div class="imgF">
+      <a href=""><img src="/images/footer/whatsapp.png" alt="(81) 90000-0000" class="if" /></a>
+      <a href=""><img src="/images/footer/gmail.png" alt="Nexus69@gmail.com" class="if" /></a>
+    </div>
+    <br />
+    <p style="font-size: 115%">
+      &copy; Todos os Direitos Reservados a Equipe Nexus - Sesi Ibura 2024
+    </p>
+  </footer>
+  <script src="/js/categorias.js"></script>
+  <script src="/js/descricao.js"></script>
+  <script src="/js/carrinho.js"></script>
+</body>
+
+</html>

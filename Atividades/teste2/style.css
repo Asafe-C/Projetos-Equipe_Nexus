@@ -1,0 +1,13 @@
+table{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blueviolet;
+}
+
+input {
+    display: flex;
+    justify-content: left;
+}
+label{
+    display: flex;
+    justify-content: left;
+}

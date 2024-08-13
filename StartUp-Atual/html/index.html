@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nexus | Home</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/slideshow.css" />
+  <link rel="stylesheet" href="/css/carrinho.css">
+  <link rel="shortcut icon" href="/images/Logo.png" type="image/x-icon" />
+</head>
+
+<body>
+  <header>
+    <div class="inicio">
+      <!--Logo, Barra de Pesquisa, Login, Lista de Favoritos e Carrinho-->
+      <a href="/html/index.html"><img src="/images/Logo (Sem Fundo).png" alt="Logo da Nexus" class="logo" /></a>
+      <div>
+        <input class="luposo" type="search" placeholder="O que você está procurando?" />
+      </div>
+      <nav class="nav1" aria-label="logincarrinho">
+        <a href="/html/login.html">
+          <div class="login">
+            <!--Login-->
+            <img src="/images/do-utilizador.png" alt="Login" class="icon" />
+            <p id="nomeuser" style="
+                  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+                    'Helvetica Neue', sans-serif;
+                ">
+              Login
+            </p>
+          </div>
+        </a>
+        <!-- Open Btn -->
+        <button id="open_cart_btn">
+          <img src="/images/carrinho-de-compras.png" alt="Carrinho" class="icon" />
+        </button>
+      </nav>
+    </div>
+    <nav class="nav2" aria-label="barra">
+      <div>
+        <!-- Menu -->
+        <ul class="nave-list">
+          <li>
+            <a href="javascript:void(0)" id="openDropdown">Categorias</a>
+          </li>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="/html/categorias/literatura.html">Literatura</a>
+            <a href="/html/categorias/miniaturas.html">Miniaturas</a>
+            <a href="/html/categorias/roupas.html">Roupas e Acessórios</a>
+            <a href="/html/categorias/jogos.html">Jogos</a>
+            <a href="/html/categorias/tabuleiro.html">Tabuleiros</a>
+            <a href="/html/categorias/colecionaveis.html">Colecionáveis</a>
+            <a href="/html/categorias/decoracao.html">Decorações</a>
+            <a href="/html/categorias/cosplay.html">Cosplay</a>
+          </div>
+          <li><a href="/html/promoçoes.html">Promoções</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <h2>Produtos em Destaque</h2>
+      <div class="main-slider">
+        <div class="slider">
+          <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1" />
+            <input type="radio" name="radio-btn" id="radio2" />
+            <input type="radio" name="radio-btn" id="radio3" />
+            <input type="radio" name="radio-btn" id="radio4" />
+            <input type="radio" name="radio-btn" id="radio5" />
+            <input type="radio" name="radio-btn" id="radio6" />
+            <div class="slide first">
+              <img src="/images/destaques-p/deadpool.jpg" alt="Funko Pop do Deadpool" />
+              <div class="caption">Funko Pop Deadpool</div>
+              <div class="caption">R$ 142.49</div>
+            </div>
+            <div class="slide">
+              <img src="/images/destaques-p/harry-book.jpg" alt="Box de Livros do Harry Potter" />
+              <div class="caption">Harry Potter | Box de Livros</div>
+              <div class="caption">R$ 326.90</div>
+            </div>
+            <div class="slide">
+              <img src="/images/destaques-p/mario.jpg" alt="Super Mario Odyssey" />
+              <div class="caption">Super Mario Odyssey | Mídia Física</div>
+              <div class="caption">R$ 299.99</div>
+            </div>
+            <div class="slide">
+              <img src="/images/destaques-p/rpg.jpg" alt="Tabuleiro de RPG do jogo Dungeons & Dragons" />
+              <div class="caption">
+                Dungeons & Dragons Kit Introdutório Dragões Da Ilha Da
+                Tempestade
+              </div>
+              <div class="caption">R$ 184.45</div>
+            </div>
+            <div class="slide">
+              <img src="/images/destaques-p/manto.jpg" alt="Manto Akatsuki" />
+              <div class="caption">Cosplay | Obito</div>
+              <div class="caption">R$ 142.49</div>
+            </div>
+            <div class="slide">
+              <img src="/images/destaques-p/ea-fc.jpg" alt="EA FC 24" />
+              <div class="caption">EA - FC 24 | Mídia Física</div>
+              <div class="caption">R$ 249.79</div>
+            </div>
+            <div class="navigation-auto">
+              <div class="auto-btn1"></div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+              <div class="auto-btn4"></div>
+              <div class="auto-btn5"></div>
+              <div class="auto-btn6"></div>
+            </div>
+          </div>
+          <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+            <label for="radio5" class="manual-btn"></label>
+            <label for="radio6" class="manual-btn"></label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2>Temos</h2>
+      <div class="products">
+        <a href="/html/categorias/jogos.html"><img src="/images/produtos/jogos/tlou-jog.png" alt=""></a>
+      </div>
+      <div class="products">
+        <a href="/html/categorias/literatura.html"><img src="/images/produtos/literatura/boxlivros-guerra-secretas.png"
+            alt=""></a>
+      </div>
+      <div class="products">
+        <a href="/html/categorias/roupas.html"><img src="/images/produtos/roupas/goku-roup.png" alt=""></a>
+      </div>
+      <div class="products">
+        <a href="/html/categorias/tabuleiro.html"><img src="/images/produtos/tabuleiro/D&DE.png" alt=""></a>
+      </div>
+      <div class="titles">
+        <a href="/html/categorias/jogos.html">
+          <h3>Jogos</h3>
+        </a>
+        <a href="/html/categorias/literatura.html">
+          <h3>Literatura</h3>
+        </a>
+        <a href="/html/categorias/roupas.html">
+          <h3>Roupas</h3>
+        </a>
+        <a href="/html/categorias/tabuleiro.html">
+          <h3>Tabuleiros</h3>
+        </a>
+      </div>
+    </div>
+    <!-- Backdrop -->
+    <div class="backdrop"></div>
+    <!-- Carrinho -->
+    <div id="sidecart" class="sidecart">
+      <div class="cart_content">
+        <!-- Cart Header -->
+        <div class="cart_header">
+          <img src="/images/carrinho-de-compras2.png" alt="Carrinho de Compras" style="width: 30px">
+          <div class="header_title">
+            <h2 class="carrinho">Seu Carrinho</h2>
+            <span id="items_num">0</span>
+          </div>
+          <span id="close_btn" class="close_btn">&times;</span>
+        </div>
+        <!-- Cart Items -->
+        <div class="cart_items"></div>
+        <!-- Cart Actions -->
+        <div class="cart_actions">
+          <div class="subtotal">
+            <p>SUBTOTAL</p>
+            <p>R$<span id="subtotal_price">00.00</span></p>
+          </div>
+          <button>Ver Carrinho</button>
+          <button>Confirmar</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <!-- Pagamentos -->
+    <h4>Formas de Pagamento</h4>
+    <div class="imgF">
+      <img src="/images/footer/visa.png" alt="Visa" class="if" />
+      <img src="/images/footer/mastercard_vrt_pos_92px_2x.png" alt="Mastercard" class="if" />
+      <img src="/images/footer/Banco_Itaú_logo.svg.png" alt="Itaú" class="if" />
+      <img src="/images/footer/logo-pix-520x520.png" alt="Pix" class="if" />
+    </div>
+    <!-- Redes Sociais -->
+    <h4>Redes Sociais</h4>
+    <div class="imgF">
+      <a href=""><img src="/images/footer/face.png" alt="Twitter" class="if" /></a>
+      <a href="https://www.instagram.com/escuderia.nexus?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw== "><img
+          src="/images/footer/Instagram_icon.webp" alt="Instagram" class="if" /></a>
+    </div>
+    <!-- Atendimento -->
+    <h4>Atendimento</h4>
+    <div class="imgF">
+      <a href=""><img src="/images/footer/whatsapp.png" alt="(81) 90000-0000" class="if" /></a>
+      <a href=""><img src="/images/footer/gmail.png" alt="Nexus69@gmail.com" class="if" /></a>
+    </div>
+    <br />
+    <p style="font-size: 115%">
+      &copy; Todos os Direitos Reservados a Equipe Nexus - Sesi Ibura 2024
+    </p>
+  </footer>
+  <script src="/js/slideshow.js"></script>
+  <script src="/js/login.js"></script>
+  <script src="/js/categorias.js"></script>
+  <script src="/js/carrinho.js"></script>
+</body>
+
+</html>

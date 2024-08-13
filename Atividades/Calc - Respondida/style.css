@@ -1,0 +1,13 @@
+body{
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+.button{
+    grid-gap: 10px
+}
+
+button{
+    padding: 15px;
+    font-size: 18px;
+}

@@ -1,0 +1,95 @@
+header{
+    text-align: right;
+    color: white
+}
+
+body{
+    background-image: url(fundo.jpg);
+    background-size: cover;
+}
+
+h1{
+    color: black;
+    size: 600px;
+}
+
+.galeria{
+    text-align: center;
+    margin: 430px 390px 390px;
+}
+
+.foto1{
+    height: 250px;
+    text-decoration: none;
+    background-color: #13f307;
+    color:#fff;
+    border-radius: 4px;
+    display: inline;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.foto2{
+    height: 250px;
+    text-decoration: none;
+    background-color: #f50909;
+    color:#fff;
+    border-radius: 4px;
+    display: inline;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.foto3{
+    height: 250px;
+    text-decoration: none;
+    background-color: #6B3FA0;
+    color:#fff;
+    border-radius: 4px;
+    display: inline;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.copyright{
+    text-align: right;
+    color:white;
+    padding: 20px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.treecko{
+    text-decoration: none;
+    color:#fff;
+    border-radius: 4px;
+    display: inline;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.torchic{
+    text-decoration: none;
+    color:#fff;
+    border-radius: 4px;
+    display: inline;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.mudkip{
+    text-decoration: none;
+    color:#fff;
+    border-radius: 4px;
+    display: inline;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.voltar{
+    max-width:200px;
+    height: 70px;
+    margin-bottom: -125px;
+    width: 70px;
+    float: left;
+}

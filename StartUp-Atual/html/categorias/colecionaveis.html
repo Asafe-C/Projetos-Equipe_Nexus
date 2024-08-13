@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexus | Colecionáveis</title>
+  <link rel="stylesheet" href="/css/categorias.css">
+  <link rel="stylesheet" href="/css/carrinho.css">
+  <link rel="shortcut icon" href="/images/Logo.png" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <div class="inicio">
+      <!--Logo, Barra de Pesquisa, Login, Lista de Favoritos e Carrinho-->
+      <a href="/html/index.html"><img src="/images/Logo (Sem Fundo).png" alt="Logo da Nexus" class="logo" /></a>
+      <div>
+        <input class="luposo" type="search" placeholder="O que você está procurando?" />
+      </div>
+      <nav class="nav1" aria-label="logincarrinho">
+        <a href="/html/login.html">
+          <div class="login">
+            <!--Login-->
+            <img src="/images/do-utilizador.png" alt="Login" class="icon" />
+            <p id="nomeuser" style="
+                  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+                    'Helvetica Neue', sans-serif;
+                ">
+              Login
+            </p>
+          </div>
+        </a>
+        <button id="open_cart_btn">
+          <img src="/images/carrinho-de-compras.png" alt="Carrinho" class="icon" />
+        </button>
+
+        <!--Carrinho de Compras-->
+      </nav>
+    </div>
+    <nav class="nav2" aria-label="barra">
+      <div>
+        <!-- Menu -->
+        <ul class="nave-list">
+          <li>
+            <a href="javascript:void(0)" id="openDropdown">Categorias</a>
+          </li>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="/html/categorias/literatura.html">Literatura</a>
+            <a href="/html/categorias/miniaturas.html">Miniaturas</a>
+            <a href="/html/categorias/roupas.html">Roupas e Acessórios</a>
+            <a href="/html/categorias/jogos.html">Jogos</a>
+            <a href="/html/categorias/tabuleiro.html">Tabuleiros</a>
+            <a href="/html/categorias/colecionaveis.html">Colecionáveis</a>
+            <a href="/html/categorias/decoracao.html">Decorações</a>
+            <a href="/html/categorias/cosplay.html">Cosplay</a>
+          </div>
+          <li><a href="/html/promoçoes.html">Promoções</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="product">
+      <h3>Bottons de Animes e Desenhos</h2>
+        <div class="idesc">
+          <img src="/images/produtos/Colecionaveis/bottons-hra.png" alt="Bottons de animes e desenhos variados">
+          <div class="descricao">
+            <p>100 Botons 3,5cm Bts Kpop Anime Rock Geek Now United Atacado</p>
+          </div>
+        </div>
+        <div class="compra">
+          <button onclick="addcarrinho('bottons-animes')">Comprar</button>
+          <div class="preço">
+            <p>R$</p>
+            <p id="valor">52.20</p>
+          </div>
+        </div>
+    </div>
+    <div class="product">
+      <h3>Bottons de Super heróis</h3>
+      <div class="idesc">
+        <img src="/images/produtos/Colecionaveis/bottons-sp.png" alt="Bottons de Super heróis">
+        <div class="descricao">
+          <p>10 Bottons Buttons Pins Broches 3,5 Cm Super Heróis Hqs Geek</p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('bottons-sp')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">29.99</p>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+      <h3>3 Chaveiros Emborrachados Street Fighter </h3>
+      <div class="idesc">
+        <img src="/images/produtos/Colecionaveis/3 Street.png" alt="3 Chaveiros Emborrachados Street Fighter">
+        <div class="descricao">
+          <p>3 Chaveiros Emborrachados Street Fighter Chun Li Ken Ryu</p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('street')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">41.32</p>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+      <h3>Chaveiros Variados</h3>
+      <div class="idesc">
+        <img src="/images/produtos/Colecionaveis/chaveiro-variados.png" alt="Chaveiros variados">
+        <div class="descricao">
+          <p>Chaveiros De Borracha Variados De Anime Cosplay Geek 12un Adicionar aos favoritos</p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('chaveira-borracha')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">54.35</p>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+      <h3>Adesivo Darth Vader</h3>
+      <div class="idesc">
+        <img src="/images/produtos/Colecionaveis/ade-Darth.png" alt="Adesivo Darth Vader">
+        <div class="descricao">
+          <p>Adesivo Darth Vader Nerd Geek Carro E Moto Premium Rgv</p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('darth-ade')">Comprar</button>
+        <div class="preço">
+          <p class="desconto">R$9.99</p>
+          <p>R$</p>
+          <p id="valor">3.33</p>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+      <h3>Adesivos de Personagens Geek</h3>
+      <div class="idesc">
+        <img src="/images/produtos/Colecionaveis/ade-animaa.png" alt="Adesivos de Personagens Geek">
+        <div class="descricao">
+          <p>Stickers Personagens Game Geek | 64 Adesivos</p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('stickers')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">64.00</p>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+      <h3>Abridor - Martelo do Thor</h3>
+      <div class="idesc">
+        <img src="/images/produtos/Colecionaveis/Martelo-Thor.png" alt="Abridor - Martelo do Thor">
+        <div class="descricao">
+          <p>Martelo do Thor Abridor (Prata) | Produtos Marvel</p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('martelo-thor')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">57.60</p>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+      <h3>Martelo Do World of Warcraft</h3>
+      <div class="idesc">
+        <img src="/images/produtos/Colecionaveis/warcraft.png" alt="Martelo Do Warcraft">
+        <div class="descricao">
+          <p>Martelo da Perdição Abridor de Garrafas World of Warcraft | Produtos Geek</p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('martelo-warcraft')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">65.76</p>
+        </div>
+      </div>
+    </div>
+    <!-- Backdrop -->
+    <div class="backdrop"></div>
+    <!-- Carrinho -->
+    <div id="sidecart" class="sidecart">
+      <div class="cart_content">
+        <!-- Cart Header -->
+        <div class="cart_header">
+          <img src="/images/carrinho-de-compras2.png" alt="Carrinho de Compras" style="width: 30px">
+          <div class="header_title">
+            <h2 class="carrinho">Seu Carrinho</h2>
+            <span id="items_num">0</span>
+          </div>
+          <span id="close_btn" class="close_btn">&times;</span>
+        </div>
+        <!-- Cart Items -->
+        <div class="cart_items"></div>
+        <!-- Cart Actions -->
+        <div class="cart_actions">
+          <div class="subtotal">
+            <p>SUBTOTAL</p>
+            <p>R$<span id="subtotal_price">00.00</span></p>
+          </div>
+          <button>Ver Carrinho</button>
+          <button>Confirmar</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <!-- Pagamentos -->
+    <h4>Formas de Pagamento</h4>
+    <div class="imgF">
+      <img src="/images/footer/visa.png" alt="Visa" class="if" />
+      <img src="/images/footer/mastercard_vrt_pos_92px_2x.png" alt="Mastercard" class="if" />
+      <img src="/images/footer/Banco_Itaú_logo.svg.png" alt="Itaú" class="if" />
+      <img src="/images/footer/logo-pix-520x520.png" alt="Pix" class="if" />
+    </div>
+    <!-- Redes Sociais -->
+    <h4>Redes Sociais</h4>
+    <div class="imgF">
+      <a href=""><img src="/images/footer/face.png" alt="Twitter" class="if" /></a>
+      <a href="https://www.instagram.com/escuderia.nexus?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw== "><img
+          src="/images/footer/Instagram_icon.webp" alt="Instagram" class="if" /></a>
+    </div>
+    <!-- Atendimento -->
+    <h4>Atendimento</h4>
+    <div class="imgF">
+      <a href=""><img src="/images/footer/whatsapp.png" alt="(81) 90000-0000" class="if" /></a>
+      <a href=""><img src="/images/footer/gmail.png" alt="Nexus69@gmail.com" class="if" /></a>
+    </div>
+    <br />
+    <p style="font-size: 115%">
+      &copy; Todos os Direitos Reservados a Equipe Nexus - Sesi Ibura 2024
+    </p>
+  </footer>
+  <script src="/js/categorias.js"></script>
+  <script src="/js/carrinho.js"></script>
+</body>
+
+</html>

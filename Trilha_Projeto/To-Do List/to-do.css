@@ -1,0 +1,69 @@
+body{
+    background-color: white;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    background-color: #A5DD9B;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin:0px;
+    padding: 0.5cqw;
+    border: 0px;
+}
+
+h1{
+    padding-left: 20px;
+}
+
+h3{
+    padding-left: 10px;
+    cursor: pointer;
+    text-align:center;
+}
+
+main{
+    padding: 0.25cqw 3cqw;
+}
+
+div{
+    background-color: whitesmoke;
+    padding: 1cqw;
+    margin: 0.5cqw 1cqw;
+    border-radius: 7px;
+    display: block;
+    box-shadow: 0.5px 0.5px 1px black;
+}
+
+span{
+    cursor: pointer;
+}
+
+input[type=checkbox]{
+    cursor: pointer;
+}
+
+input[type=checkbox]:checked ~ label {
+    text-decoration: line-through;
+ } 
+
+.add{
+    width: 30px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.remove{
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+    float: right;
+}
+
+.riscado{
+    text-decoration: line-through;
+}

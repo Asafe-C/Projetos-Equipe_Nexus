@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexus | Cosplay</title>
+  <link rel="stylesheet" href="/css/carrinho.css">
+  <link rel="stylesheet" href="/css/categorias.css">
+  <link rel="shortcut icon" href="/images/Logo.png" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <div class="inicio">
+      <!--Logo, Barra de Pesquisa, Login, Lista de Favoritos e Carrinho-->
+      <a href="/html/index.html"><img src="/images/Logo (Sem Fundo).png" alt="Logo da Nexus" class="logo" /></a>
+
+      <div>
+        <input class="luposo" type="search" placeholder="O que você está procurando?" />
+      </div>
+      <nav class="nav1" aria-label="logincarrinho">
+        <a href="/html/login.html">
+          <div class="login">
+            <!--Login-->
+            <img src="/images/do-utilizador.png" alt="Login" class="icon" />
+            <p id="nomeuser" style="
+                      font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+                        'Helvetica Neue', sans-serif;
+                    ">
+              Login
+            </p>
+          </div>
+        </a>
+        <!-- Open Btn -->
+        <button id="open_cart_btn">
+          <img src="/images/carrinho-de-compras.png" alt="Carrinho" class="icon" />
+        </button>
+      </nav>
+    </div>
+    <nav class="nav2" aria-label="barra">
+      <div>
+        <!-- Menu -->
+        <ul class="nave-list">
+          <li>
+            <a href="javascript:void(0)" id="openDropdown">Categorias</a>
+          </li>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="/html/categorias/literatura.html">Literatura</a>
+            <a href="/html/categorias/miniaturas.html">Miniaturas</a>
+            <a href="/html/categorias/roupas.html">Roupas e Acessórios</a>
+            <a href="/html/categorias/jogos.html">Jogos</a>
+            <a href="/html/categorias/tabuleiro.html">Tabuleiros</a>
+            <a href="/html/categorias/colecionaveis.html">Colecionáveis</a>
+            <a href="/html/categorias/decoracao.html">Decorações</a>
+            <a href="/html/categorias/cosplay.html">Cosplay</a>
+          </div>
+          <li><a href="/html/promoçoes.html">Promoções</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="product">
+      <h2>Kit Armas Ninja</h2>
+      <div class="idesc">
+        <img src="/images/produtos/Cosplays/shuriken.png" alt="Kit de armas ninjas do Naruto">
+        <div class="descricao">
+          <p>Este kit é um acessório perfeito para eventos geeks, temáticos de anime ou cosplay. Ele inclui
+            uma variedade de armas ninja na cor preta:
+            Sai: Uma arma de defesa com duas pontas afiadas, frequentemente usada em artes marciais.
+            Shuriken (Estrelas Arremessáveis): Duas estrelas afiadas para lançamento, típicas dos ninjas.
+            Ninjato (Espada Ninja): Uma espada com detalhes vermelhos no cabo, perfeita para completar seu
+            traje de ninja.</p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('shurikens')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">69.10</p>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+      <h2>Cosplay Yumeko Jabami</h2>
+      <div class="idesc">
+        <img src="/images/produtos/Cosplays/cosplay-yumeko.png" alt="Cosplay da Yumeko Jabami do anime Kakegurui">
+        <div class="descricao">
+          <p>Traje de cosplay do personagem Yumeko Jabami do anime “Kakegurui”. O traje inclui um blazer de
+            cor escura com detalhes em vermelho, uma camisa branca com gravata vermelha e uma saia plissada.
+          </p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('yumeko')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">299.99</p>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+      <h2>Máscara Demon Slayer</h2>
+      <div class="idesc">
+        <img src="/images/produtos/Cosplays/mascara-demonS.png" alt="Máscara do anime Demon Slayer">
+        <div class="descricao">
+          <p>A máscara “Demon Slayer - Kimetsu No Yaiba - Tanjiro - Cosplay” é uma réplica inspirada no
+            personagem Tanjiro do anime “Demon Slayer: Kimetsu no Yaiba”. Ela apresenta um design branco com
+            detalhes em vermelho e preto, assemelhando-se ao rosto de uma raposa. A máscara é ideal para fãs
+            do anime que desejam incorporar o estilo do personagem em seus trajes de cosplay.</p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('demonslayermask')">Comprar</button>
+        <div class="preço">
+          <p class="desconto">R$39.99</p>
+          <p>R$</p>
+          <p id="valor">30.90</p>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+      <h2>Cosplay Bruxo - HR</h2>
+      <div class="idesc">
+        <img src="/images/produtos/Cosplays/cosplay-bruxo.png" alt="Cosplay de bruxo de Harry Potter">
+        <div class="descricao">
+          <p>O conjunto “Cosplay Bruxo - HR” é uma réplica inspirada em trajes de bruxos e bruxas. Ele inclui
+            uma capa preta com um emblema no lado esquerdo, semelhante às vestes da série Harry Potter,
+            especificamente associadas à personagem Hermione Granger. Além da capa, há um chapéu pontudo de
+            bruxa, uma varinha, uma gravata com listras diagonais, possivelmente representando uma das casas
+            da Escola de Magia e Bruxaria de Hogwarts, e outros acessórios, como um colar com um pingente,
+            pulseiras e uma carta de convite.</p>
+        </div>
+      </div>
+      <div class="compra">
+        <button onclick="addcarrinho('fardadebruxo')">Comprar</button>
+        <div class="preço">
+          <p>R$</p>
+          <p id="valor">159.00</p>
+        </div>
+      </div>
+    </div>
+    <!-- Backdrop -->
+    <div class="backdrop"></div>
+    <!-- Carrinho -->
+    <div id="sidecart" class="sidecart">
+      <div class="cart_content">
+        <!-- Cart Header -->
+        <div class="cart_header">
+          <img src="/images/carrinho-de-compras2.png" alt="Carrinho de Compras" style="width: 30px">
+          <div class="header_title">
+            <h2 class="carrinho">Seu Carrinho</h2>
+            <span id="items_num">0</span>
+          </div>
+          <span id="close_btn" class="close_btn">&times;</span>
+        </div>
+        <!-- Cart Items -->
+        <div class="cart_items"></div>
+        <!-- Cart Actions -->
+        <div class="cart_actions">
+          <div class="subtotal">
+            <p>SUBTOTAL</p>
+            <p>R$<span id="subtotal_price">00.00</span></p>
+          </div>
+          <button>Ver Carrinho</button>
+          <button>Confirmar</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <!-- Pagamentos -->
+    <h4>Formas de Pagamento</h4>
+    <div class="imgF">
+      <img src="/images/footer/visa.png" alt="Visa" class="if" />
+      <img src="/images/footer/mastercard_vrt_pos_92px_2x.png" alt="Mastercard" class="if" />
+      <img src="/images/footer/Banco_Itaú_logo.svg.png" alt="Itaú" class="if" />
+      <img src="/images/footer/logo-pix-520x520.png" alt="Pix" class="if" />
+    </div>
+    <!-- Redes Sociais -->
+    <h4>Redes Sociais</h4>
+    <div class="imgF">
+      <a href=""><img src="/images/footer/face.png" alt="Twitter" class="if" /></a>
+      <a href="https://www.instagram.com/escuderia.nexus?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw== "><img
+          src="/images/footer/Instagram_icon.webp" alt="Instagram" class="if" /></a>
+    </div>
+    <!-- Atendimento -->
+    <h4>Atendimento</h4>
+    <div class="imgF">
+      <a href=""><img src="/images/footer/whatsapp.png" alt="(81) 90000-0000" class="if" /></a>
+      <a href=""><img src="/images/footer/gmail.png" alt="Nexus69@gmail.com" class="if" /></a>
+    </div>
+    <br />
+    <p style="font-size: 115%">
+      &copy; Todos os Direitos Reservados a Equipe Nexus - Sesi Ibura 2024
+    </p>
+  </footer>
+  <script src="/js/categorias.js"></script>
+  <script src="/js/descricao.js"></script>
+  <script src="/js/carrinho.js"></script>
+</body>
+
+</html>

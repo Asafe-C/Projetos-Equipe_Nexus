@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus | Login</title>
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="shortcut icon" href="/images/Logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <main> <!--Conteúdo-->
+        <div class="ladoEsquerdo"> <!--Fundo-->
+            <img src="" alt="">
+        </div>
+        <div class="ladoDireito"> <!--Parte com o Login-->
+            <div class="login">
+                <div class="iconeLogin"> <!--Ícone e Texto-->
+                    <img src="/images/login/user2.png" alt="Ícone de Usuário">
+                    <h2>Faça seu Login</h2>
+                </div>
+                <form> <!--Formulário de Login-->
+                    <div class="inputa">
+                        <label for="identificacao"></label>
+                        <input type="text" placeholder="CPF" id="identificacao" name="identificacao" maxlength="14"
+                            onkeyup="handleCpfInput(event)">
+                        <span class="inpIcon"><img src="/images/login/email.png" alt="Ícone de CPF"></span>
+                    </div>
+                    <div class="inputa">
+                        <label for="password"></label>
+                        <input type="password" placeholder="SENHA" id="senha">
+                        <span class="inpIcon"><img src="/images/login/padlock.png" alt="Ícone de Cadeado"></span>
+                    </div>
+                    <p id="erro" class="erro"></p>
+                    <div class="options">
+                        <a href="https://support.google.com/accounts/answer/7682439?hl=pt-BR">Esqueceu a Senha?</a>
+                        <a href="criar-conta.html">Cadastre-se</a>
+                    </div>
+                    <button type="submit" onclick="login()">LOGIN</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="/js/login.js"></script>
+</body>
+
+</html>

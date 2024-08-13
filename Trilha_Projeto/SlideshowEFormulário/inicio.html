@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="slide.css">
+    <link rel="shortcut icon" href="imagens/jamescolorcorrection.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <title>Nextstage - Homepage</title>
+</head>
+<body>
+    <header>
+        <img src="imagens/jamesmenoscortado.png" alt="" class="logo">
+    </header>
+    <nav class="grid">
+        <p><a href="inicio.html">INÍCIO</a></p>
+        <p><a href="trabalhos.html">PORTFÓLIO</a></p>
+        <p><a href="contatos.html">CONTATOS</a></p>
+    </nav>
+    <main class="main">
+        <div class="t1">
+            <div class="slideshow">
+                <div><img src="imagens/K3.jpg"  alt="Slide 1"></div>
+                <div><img src="imagens/K6.webp" alt="Slide 2"></div>
+                <div><img src="imagens/K12.jpeg" alt="Slide 3"></div>
+            </div>             
+        </div>
+        <div style="color:white;">
+            <h2 style="text-align: center;">Sobre a Empresa</h2>
+            <p style="text-align: justify; margin: 15px; padding: 0px 100px 30px;">Na NextStage, acreditamos que cada empresa tem uma história única para contar. Nossa equipe de profissionais talentosos e apaixonados trabalha em estreita colaboração com nossos clientes para entender suas necessidades, objetivos e valores. A partir daí, projetamos e desenvolvemos soluções personalizadas que impulsionam o crescimento e a visibilidade online.</p>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        <script>
+        $(document).ready(function(){
+        $('.slideshow').slick({
+            autoplay: true,
+            autoplaySpeed: 2000,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1
+        });
+        });
+        </script>
+    </main>
+</body>
+</html>
