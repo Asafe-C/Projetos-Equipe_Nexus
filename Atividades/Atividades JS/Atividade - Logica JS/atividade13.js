@@ -1,5 +1,5 @@
 function filtroPares(numeros){
-    let numFiltrados = numeros.filter((num, indice) => indice%2 === 0 && num%2 === 0)
+    const numFiltrados = numeros.filter((num, indice) => indice%2 === 0 && num%2 === 0)
     return numFiltrados
 }
 

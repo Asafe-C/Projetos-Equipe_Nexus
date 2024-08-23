@@ -1,5 +1,5 @@
 function SomaDeArray(soma){
-    let valSoma = soma.reduce((ac, num) => ac + num, 0);
+    const valSoma = soma.reduce((ac, num) => ac + num, 0);
     return valSoma
 }
 
