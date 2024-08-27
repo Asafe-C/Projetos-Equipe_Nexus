@@ -1,14 +1,15 @@
-class animal{
+class Animal{
     constructor(nome, tipo){
-        this.nome = nome,
+        this.nome = nome;
         this.tipo = tipo
     }
 
     emitirSom(){
+        return("zzzzzzzzzzzzzzzzz")
     }
 }
 
-class morcego extends animal{
+class Morcego extends Animal{
     constructor(nome){
         super(nome, "Morcego");
     }
@@ -18,5 +19,5 @@ class morcego extends animal{
     }
 }
 
-const morcegozinho = new morcego("Bruce");
+const morcegozinho = new Morcego("Bruce");
 console.log("nome: " + morcegozinho.nome + ", tipo: " + morcegozinho.tipo + ", som que faz: " + morcegozinho.emitirSom());

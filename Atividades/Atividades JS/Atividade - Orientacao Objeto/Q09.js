@@ -1,7 +1,7 @@
 class Cachorro{
     constructor(nome, raca, idade){
-        this.nome = nome,
-        this.raca = raca,
+        this.nome = nome;
+        this.raca = raca;
         this.idade = idade
     }
 
