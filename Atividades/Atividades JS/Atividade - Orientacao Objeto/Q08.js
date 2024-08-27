@@ -1,12 +1,12 @@
 class Client{
     constructor(nome, cpf, dataNascimento, endereco, email, ocupacao, rendaAnual, nivelEscolaridade){
-        this.nome = nome,
-        this.cpf = cpf,
-        this.dataNascimento = dataNascimento,
-        this.endereco = endereco,
-        this.email = email,
-        this.ocupacao = ocupacao,
-        this.rendaAnual = rendaAnual,
+        this.nome = nome;
+        this.cpf = cpf;
+        this.dataNascimento = dataNascimento;
+        this.endereco = endereco;
+        this.email = email;
+        this.ocupacao = ocupacao;
+        this.rendaAnual = rendaAnual;
         this.nivelEscolaridade = nivelEscolaridade
     }
 
