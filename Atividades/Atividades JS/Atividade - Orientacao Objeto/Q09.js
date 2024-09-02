@@ -3,9 +3,15 @@ class Cachorro{
     #raca
     #idade
     constructor(nome, raca, idade){
+<<<<<<< HEAD
         this.#nome = nome,
         this.#raca = raca,
         this.#idade = idade
+=======
+        this.nome = nome;
+        this.raca = raca;
+        this.idade = idade
+>>>>>>> fca511d66248944fbdbffe10b64581d3941cd28d
     }
 
     get nome(){

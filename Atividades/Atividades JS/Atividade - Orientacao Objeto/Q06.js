@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class animal{
     #nome
     #tipo
@@ -32,10 +33,20 @@ class animal{
 
     emitirSom(){
         return("zzzzzzzzzz...")
+=======
+class Animal{
+    constructor(nome, tipo){
+        this.nome = nome;
+        this.tipo = tipo
+    }
+
+    emitirSom(){
+        return("zzzzzzzzzzzzzzzzz")
+>>>>>>> fca511d66248944fbdbffe10b64581d3941cd28d
     }
 }
 
-class morcego extends animal{
+class Morcego extends Animal{
     constructor(nome){
         super(nome, "Morcego");
     }
@@ -45,6 +56,7 @@ class morcego extends animal{
     }
 }
 
+<<<<<<< HEAD
 try {
     const morcegozinho = new morcego();
     morcegozinho.nome = "Bruce";
@@ -52,3 +64,7 @@ try {
 } catch (error) {
     console.error(error.message);
 }
+=======
+const morcegozinho = new Morcego("Bruce");
+console.log("nome: " + morcegozinho.nome + ", tipo: " + morcegozinho.tipo + ", som que faz: " + morcegozinho.emitirSom());
+>>>>>>> fca511d66248944fbdbffe10b64581d3941cd28d

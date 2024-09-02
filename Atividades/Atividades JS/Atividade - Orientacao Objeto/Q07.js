@@ -3,6 +3,7 @@ class Produto{
     #preco
     #quant
     constructor(nome, preco, quant){
+<<<<<<< HEAD
         this.#nome = nome,
         this.#preco = preco,
         this.#quant = quant
@@ -42,6 +43,11 @@ class Produto{
         }else{
             throw new Error("O valor deve ser um number!");
         }
+=======
+        this.nome = nome;
+        this.preco = preco;
+        this.quant = quant
+>>>>>>> fca511d66248944fbdbffe10b64581d3941cd28d
     }
 
     calcularTotal(){
