@@ -3,15 +3,9 @@ class Cachorro{
     #raca
     #idade
     constructor(nome, raca, idade){
-<<<<<<< HEAD
-        this.#nome = nome,
-        this.#raca = raca,
-        this.#idade = idade
-=======
-        this.nome = nome;
-        this.raca = raca;
-        this.idade = idade
->>>>>>> fca511d66248944fbdbffe10b64581d3941cd28d
+        this.#nome = nome;
+        this.#raca = raca;
+        this.#idade = idade;
     }
 
     get nome(){
@@ -20,7 +14,7 @@ class Cachorro{
 
     set nome(novoNome){
         if(typeof novoNome === 'string'){
-            return this.#nome = novoNome;
+            this.#nome = novoNome;
         }else{
             throw new Error("Coloque um valor em string!");
         }

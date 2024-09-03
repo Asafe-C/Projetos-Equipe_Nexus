@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 class Client {
     #nome;
     #cpf;
@@ -114,18 +113,6 @@ class Client {
       } else {
         throw new Error("O valor deve ser uma string!");
       }
-=======
-class Client{
-    constructor(nome, cpf, dataNascimento, endereco, email, ocupacao, rendaAnual, nivelEscolaridade){
-        this.nome = nome;
-        this.cpf = cpf;
-        this.dataNascimento = dataNascimento;
-        this.endereco = endereco;
-        this.email = email;
-        this.ocupacao = ocupacao;
-        this.rendaAnual = rendaAnual;
-        this.nivelEscolaridade = nivelEscolaridade
->>>>>>> fca511d66248944fbdbffe10b64581d3941cd28d
     }
 
     relatorio() {

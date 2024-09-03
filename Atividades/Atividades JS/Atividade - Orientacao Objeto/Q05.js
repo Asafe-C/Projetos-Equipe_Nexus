@@ -3,10 +3,9 @@ class Data{
     #mes
     #ano
     constructor(dia, mes, ano){
-<<<<<<< HEAD
         this.#dia = dia;
         this.#mes = mes;
-        this.#ano = ano
+        this.#ano = ano;
     }
 
     get dia(){
@@ -43,11 +42,6 @@ class Data{
         }else{
             throw new Error("Digite um ano válido!")
         }
-=======
-        this.dia = dia;
-        this.mes = mes;
-        this.ano = ano
->>>>>>> fca511d66248944fbdbffe10b64581d3941cd28d
     }
 
     toString(){

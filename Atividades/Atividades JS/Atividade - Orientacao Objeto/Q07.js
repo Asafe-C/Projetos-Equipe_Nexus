@@ -3,10 +3,9 @@ class Produto{
     #preco
     #quant
     constructor(nome, preco, quant){
-<<<<<<< HEAD
-        this.#nome = nome,
-        this.#preco = preco,
-        this.#quant = quant
+        this.#nome = nome;
+        this.#preco = preco;
+        this.#quant = quant;
     }
 
     get nome(){
@@ -15,7 +14,7 @@ class Produto{
 
     set nome(novoNome){
         if(typeof novoNome === 'string'){
-            return this.#nome = novoNome;
+            this.#nome = novoNome;
         }else{
             throw new Error("O valor deve ser uma string!");
         }
@@ -27,7 +26,7 @@ class Produto{
 
     set preco(novoPreco){
         if(typeof novoPreco === 'number'){
-            return this.#preco = novoPreco;
+            this.#preco = novoPreco;
         }else{
             throw new Error("O valor deve ser um number!");
         }
@@ -39,15 +38,10 @@ class Produto{
 
     set quant(novoQuant){
         if(typeof novoQuant === 'number'){
-            return this.#quant = novoQuant;
+            this.#quant = novoQuant;
         }else{
             throw new Error("O valor deve ser um number!");
         }
-=======
-        this.nome = nome;
-        this.preco = preco;
-        this.quant = quant
->>>>>>> fca511d66248944fbdbffe10b64581d3941cd28d
     }
 
     calcularTotal(){
