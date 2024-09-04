@@ -5,6 +5,7 @@ Esse repositório é dedicado a favor de guardar e expor todos os projetos traba
 ***Padrão de Mensagens Commit***:
 
 **- Usar uma abreviação identifique o objetivo do commit, podendo ser:**
+- *ADD: Adição de novos arquivos;*
 - *FEAT: Features;*
 - *BFIX: Bug Fix (Correção de Bugs);*
 - *RFAC: Refactor (Melhorias na estrutura do código sem alterar seu comportamento externo)*
