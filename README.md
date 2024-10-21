@@ -17,4 +17,5 @@ Esse repositório é dedicado a favor de guardar e expor todos os projetos traba
 
 ***Outros Projetos:***
 **- Projeto Principal:** https://github.com/Asafe-C/StartUp-NEXUS
+
 **- Projeto Alternativo:** https://github.com/Asafe-C/SDGDE-Nexus
