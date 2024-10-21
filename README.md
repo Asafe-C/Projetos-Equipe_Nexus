@@ -2,6 +2,7 @@
 
 Esse repositório é dedicado a favor de guardar e expor todos os projetos trabalhados pela equipe/start-up Nexus, composta por alunos do SESI IBURA, da sala do 3ºB, sendo esses alunos: Ana Carolina, Antônio Miranda, Asafe Calebe, Caio Guilherme, Esdras Felipe, José Vinícius e Matheus Oliveira.
 
+
 ***Padrão de Mensagens Commit:***
 
 **- Usar uma abreviação identifique o objetivo do commit, podendo ser:**
@@ -15,7 +16,9 @@ Esse repositório é dedicado a favor de guardar e expor todos os projetos traba
   
 **- Resumir o máximo possível o objetivo da alteração.**
 
+
 ***Outros Projetos:***
+
 **- Projeto Principal:** https://github.com/Asafe-C/StartUp-NEXUS
 
 **- Projeto Alternativo:** https://github.com/Asafe-C/SDGDE-Nexus
